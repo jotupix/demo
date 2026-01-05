@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			 android:layout_width="match_parent"
+			 android:layout_height="match_parent">
+
+	<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+				  android:id="@+id/progress_container"
+				  android:gravity="center"
+				  android:visibility="visible">
+		<ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content"
+				style="?android:attr/progressBarStyleLarge"
+				android:layout_centerInParent="true"/>
+
+		<!--<ImageView-->
+				<!--android:layout_width="match_parent" android:layout_height="match_parent"-->
+				<!--android:id="@+id/mho_loading"-->
+				<!--android:src="@anim/mho_loading"-->
+				<!--android:scaleType="centerInside"/>-->
+
+	</RelativeLayout>
+
+	<LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+				  android:id="@+id/network_err_container"
+				  android:gravity="center"
+				  android:orientation="vertical"
+				  android:visibility="gone">
+		<TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+				  android:text="@string/base_network_not_connected"/>
+		<Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:id="@+id/btn_retry_network"
+				android:text="@string/base_retry"/>
+		<Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:text="@string/base_network_setting"/>
+	</LinearLayout>
+
+	<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+					android:id="@+id/content_err_container"
+					android:gravity="center"
+					android:visibility="gone">
+		<TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+				  android:layout_centerHorizontal="true"
+				  android:drawableLeft="@drawable/base_error_content"
+				  android:textSize="@dimen/base_text_size_bast_hint"
+				  android:textColor="@color/base_text_color_base_hint"
+				  android:text="@string/base_load_content_error"/>
+
+		<Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:id="@+id/btn_retry_content"
+				android:layout_centerHorizontal="true"
+				android:layout_marginTop="83dp"
+				android:text="@string/base_retry"/>
+	</RelativeLayout>
+
+	<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+					android:id="@+id/content_login_container"
+					android:gravity="center"
+					android:visibility="gone">
+
+	</RelativeLayout>
+
+	<FrameLayout android:layout_width="match_parent"
+				 android:layout_height="match_parent"
+				 android:id="@+id/content_container"
+				 android:gravity="center"
+				 android:background="@color/color_white">
+	</FrameLayout>
+
+</FrameLayout>

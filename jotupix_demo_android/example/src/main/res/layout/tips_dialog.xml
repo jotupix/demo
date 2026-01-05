@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:background="@drawable/password_bg1"
+    android:paddingLeft="20dp"
+    android:paddingTop="20dp"
+    android:paddingRight="20dp"
+    android:paddingBottom="20dp">
+
+
+    <com.jtkj.library.widget.international.AppTextView
+        android:id="@+id/tips_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="web|email|phone"
+        android:gravity="top|left"
+        android:textColor="@color/color_000000"
+        android:textSize="20sp" />
+
+</RelativeLayout>

@@ -1,0 +1,888 @@
+<resources>
+    <string name="app_name">Jotupix</string>
+    <string name="app_is_running">Jotupix running</string>
+    <string name="light">Light</string>
+    <string name="message">Text</string>
+    <string name="text">Text</string>
+    <string name="material">Material</string>
+    <string name="icon">Pattern</string>
+    <string name="draw">Graffiti</string>
+    <string name="animation">Animation</string>
+    <string name="music">Music</string>
+    <string name="rhythm">Rhythm</string>
+    <string name="device_mic">Device</string>
+    <string name="local_mic">Mic</string>
+    <string-array name="rhythm_mode_one_title">
+        <item>@string/music</item>
+        <item>@string/local_mic</item>
+        <item>@string/device_mic</item>
+    </string-array>
+    <string-array name="rhythm_mode_two_title">
+        <item>@string/music</item>
+        <item>@string/local_mic</item>
+    </string-array>
+    <string name="set">Settings</string>
+    <string name="program">Program</string>
+    <string name="drive">Driving</string>
+    <string name="send">Send</string>
+    <string name="developing_and_wait">There is currently no preview effect in this mode,
+the actual display effect of the device shall prevail!</string>
+    <string name="ask_donot_save_and_ext">You haven\'t saved yet, do you want to save and exit?</string>
+    <string name="no_content_tip">There is no content yet. Please click the "+" button in the upper right corner to add a program.</string>
+    <string name="template">Template</string>
+    <string name="click_to_edit">Click to edit</string>
+    <string name="text_area">文字编辑区域</string>
+    <string name="text_area_one">文字编辑区域1</string>
+    <string name="text_area_two">文字编辑区域2</string>
+    <string name="color">Color</string>
+    <string name="show_speed">Display speed</string>
+    <string name="stay_time">Duration of stay</string>
+    <string name="dynamic_text_show_speed">Display speed: </string>
+    <string name="dynamic_text_stay_time">Duration of stay: </string>
+    <string name="show_speed_title">Display speed</string>
+    <string name="stay_time_title">Duration of stay</string>
+    <string name="mode">Mode</string>
+    <string name="program_max_count_tip">Select up to nine programs to send at a time!</string>
+    <string name="program_max_count_tip_iled_clock">Select up to %1$s programs to send at a time!</string>
+    <string-array name="pattern_title">
+        <item>@string/material</item>
+        <item>@string/draw</item>
+        <item>@string/animation</item>
+    </string-array>
+    <string-array name="mode_title_string">
+        <item>@string/text</item>
+        <item>@string/icon</item>
+        <item>@string/draw</item>
+        <item>@string/animation</item>
+    </string-array>
+    <string-array name="mode_title_string_for536">
+        <item>@string/text</item>
+        <item>@string/icon</item>
+        <item>@string/draw</item>
+    </string-array>
+    <string-array name="mode_title_string_for16192">
+        <item>@string/text</item>
+    </string-array>
+
+    <string name="please_input">Please enter text</string>
+    <string name="device_tip">Tap and hold to rename device</string>
+    <string name="rename_title">Rename your device</string>
+    <string name="input_device_name_hint">Please enter a new device name</string>
+    <string name="input_device_name_empty">Input is empty!</string>
+
+    <string name="password">PASSWORD</string>
+    <string name="password_input">Set a password</string>
+    <string name="password_input_hint">Please enter a six-digit password</string>
+    <string name="password_empty">Password input is empty!</string>
+    <string name="password_setting">Set password</string>
+    <string name="password_change">Change password</string>
+    <string name="password_wrong">Wrong password</string>
+    <string name="password_check_failure">The connection password verification failed and the device was disconnected</string>
+    <string name="password_check_success">Password verification succeeded</string>
+    <string name="password_set_failure">Failed to set password</string>
+    <string name="password_set_success">Password set successfully</string>
+    <string name="before_the_last_verify_success_you_can_not_connect_the_next_device">You cannot connect to the next device until the previous device is connected and the password is verified successfully</string>
+
+    <string name="device_list">Device List</string>
+    <string name="device_connected_but_closed">The device is connected but turned off, unable to send data, please turn on the device and send data</string>
+    <string name="un_connect">Not connected</string>
+    <string name="connect_count">Connected(%1$d)</string>
+    <string name="search_device">Search device</string>
+    <string name="connect">Connect Device</string>
+    <string name="choose_device">Choose your device</string>
+    <string name="active_disconnect">The current device connection was successfully disconnected</string>
+    <string name="not_active_disconnect">Device is disconnected</string>
+    <string name="device_not_connected">The device is not connected, please connect the device and send data</string>
+    <string name="send_success">Sent successfully</string>
+    <string name="sending">Sending.....</string>
+    <string name="send_failure">Failed to send</string>
+    <string name="progress_program">Program%1$d</string>
+    <string name="start_send">Start sending</string>
+    <string name="search_device_failed">
+		\n\n No device found, please refer to the following solutions:
+        \n\n1. Please check the USB power supply specifications, the voltage should not exceed 5V, the current should not be lower than 2A, and you cannot use the USB of a computer or TV to power the device.
+        \n\n2. Please check if the device is powered on and powered on normally.
+        \n\n3. Please try to search the device at a closer distance.
+        \n\n4. Please check whether the Bluetooth is turned on, whether the location permission is turned on, pull down to refresh again in the device list page or click the "Search Device" button to search for the device again.
+        \n\n5. Power on the device again, exit the APP, then open the APP again to enter the device list page and search for the device again.
+        \n\n6. If you still have problems, you can click the "Help and Feedback" button on the settings page to enter the "Help and Feedback" page, click the "Contact Us" button at the bottom to send an email to the developer team for assistance Professional help.
+	</string>
+    <string name="connect_device_failed">
+		 \n\n Failed to connect to the device, please refer to the following solutions:
+         \n\n1. Please check the signal strength of the device and try to connect the device again at a closer distance.
+		 \n\n2. Power on the device again, exit the APP, then open the APP again to enter the device list page, re-search for the device and connect the device again.
+         \n\n3. If you still have problems, you can click the "Help and Feedback" button on the settings page to enter the "Help and Feedback" page, click the "Contact Us" button at the bottom to send an email to the developer team for professional assistance help.
+	</string>
+    <string name="send_data_three_times_and_failed">
+		\n\n Failed to send data, please refer to the following solutions:
+        \n\n1. Please check the USB power supply specifications, the voltage should not exceed 5V, the current should not be lower than 2A, and you cannot use the USB of a computer or TV to power the device.
+        \n\n2. Please check whether the device has been successfully connected, if not, please reconnect the device.
+        \n\n3. Please try sending data at a closer distance.
+        \n\n4. Power on the device again, exit the APP, then open the APP again to enter the device list page, reconnect the device and send data again.
+        \n\n5. If there is still a problem, you can contact the seller to return the item.
+        \n\n6. You can also click the "Help and Feedback" button on the settings page to enter the "Help and Feedback" page, and click the "Contact Us" button at the bottom to send an email to the developer team for professional help.
+	</string>
+    <string name="color_set">Set color</string>
+    <string name="custom_color">DIY-Colors</string>
+    <string name="colorful_color">Colorful</string>
+    <string name="colorful_speed">Speed</string>
+    <string name="mode_choose">Choose mode</string>
+    <string-array name="mode_32_string">
+        <item>Static</item>
+        <item>Shift left continuously</item>
+        <item>Shift right continuously</item>
+        <item>Up</item>
+        <item>Down</item>
+        <item>Accumulation</item>
+        <item>Picture scroll</item>
+        <item>Flashing</item>
+        <item>Pan to the left</item>
+        <item>Pan to the right</item>
+        <item>Override left</item>
+        <item>Override right</item>、
+        <item>Horizontal interspersed</item>
+    </string-array>
+    <string-array name="coolledu_mode_string">
+        <item>Static</item>
+        <item>Shift left continuously</item>
+        <item>Shift right continuously</item>
+        <item>Up</item>
+        <item>Down</item>
+        <item>Accumulation</item>
+        <item>Picture scroll</item>
+        <item>Flashing</item>
+        <item>Pan to the left</item>
+        <item>Pan to the right</item>
+        <item>Override left</item>
+        <item>Override right</item>、
+        <item>Horizontal interspersed</item>
+    </string-array>
+    <string-array name="coolledu_second_mode_string">
+        <item>Shift left continuously</item>
+        <item>Shift right continuously</item>
+    </string-array>
+    <string-array name="mode_string">
+        <item>Static</item>
+        <item>Left</item>
+        <item>Right</item>
+        <item>Up</item>
+        <item>Down</item>
+        <item>Snowflake</item>
+        <item>Picture</item>
+        <item>Laser</item>
+    </string-array>
+    <string-array name="colorful_32_string">
+        <item>水平滚动</item>
+        <item>水平静态</item>
+        <item>竖直滚动</item>
+        <item>竖直相对滚动</item>
+        <item>跳变</item>
+        <item>水平覆盖</item>
+        <item>水平斜线滚动</item>
+        <item>风车旋转</item>
+    </string-array>
+    <string name="frame">Border</string>
+    <string name="no_frame">No border</string>
+    <string name="frame_type">Effect</string>
+    <string name="frame_speed">Speed</string>
+    <string name="frame_choose">Choose border</string>
+    <string-array name="frame_32_string">
+        <item>Clockwise</item>
+        <item>Anticlockwise</item>
+        <item>Flashing</item>
+        <item>Static</item>
+    </string-array>
+    <string-array name="frame_32_type_string">
+        <item>Colorful1</item>
+        <item>Colorful2</item>
+        <item>Colorful3</item>
+        <item>Tricolor1</item>
+        <item>Tricolor2</item>
+        <item>Tricolor3</item>
+        <item>Red1</item>
+        <item>Red2</item>
+        <item>Red3</item>
+        <item>FourColor1</item>
+        <item>FourColor2</item>
+        <item>FourColor3</item>
+        <item>FourColor4</item>
+        <item>Green1</item>
+        <item>Green2</item>
+        <item>Green3</item>
+        <item>Yellow1</item>
+        <item>Yellow2</item>
+        <item>Yellow3</item>
+    </string-array>
+    <string-array name="coolledu_frame_string">
+        <item>Clockwise</item>
+        <item>Anticlockwise</item>
+        <item>Flashing</item>
+        <item>Static</item>
+    </string-array>
+    <string-array name="coolledu_frame_type_string">
+        <item>Colorful1</item>
+        <item>Colorful2</item>
+        <item>Colorful3</item>
+        <item>Colorful4</item>
+        <item>Tricolor1</item>
+        <item>Tricolor2</item>
+        <item>Tricolor3</item>
+        <item>Red1</item>
+        <item>Red2</item>
+        <item>Red3</item>
+        <item>FourColor1</item>
+        <item>FourColor2</item>
+        <item>FourColor3</item>
+        <item>FourColor4</item>
+        <item>Green1</item>
+        <item>Green2</item>
+        <item>Green3</item>
+        <item>Yellow1</item>
+        <item>Yellow2</item>
+        <item>Yellow3</item>
+    </string-array>
+    <string-array name="auto_color_type_string">
+        <item>七彩向左滚动</item>
+        <item>七彩向右滚动</item>
+        <item>七彩静态</item>
+        <item>七彩向上滚动</item>
+        <item>七彩向下滚动</item>
+        <item>七彩向中间滚动</item>
+        <item>七彩向两边滚动</item>
+        <item>七彩跳变</item>
+        <item>七彩水平向左覆盖</item>
+        <item>七彩水平向右覆盖</item>
+        <item>七彩斜线向左滚动</item>
+        <item>七彩斜线向右滚动</item>
+        <item>七彩向左旋转</item>
+        <item>七彩向右旋转</item>
+    </string-array>
+    <string name="to_left">向左</string>
+    <string name="to_right">向右</string>
+    <string name="to_up">向上</string>
+    <string name="to_down">向下</string>
+    <string name="to_center">向中间</string>
+    <string name="to_left_right">向两边</string>
+    <string-array name="colorful_32_left_right">
+        <item>@string/to_left</item>
+        <item>@string/to_right</item>
+    </string-array>
+    <string-array name="colorful_32_up_down">
+        <item>@string/to_up</item>
+        <item>@string/to_down</item>
+    </string-array>
+    <string-array name="colorful_32_center_left_right">
+        <item>@string/to_center</item>
+        <item>@string/to_left_right</item>
+    </string-array>
+    <string name="choose_mode">Select Mode</string>
+    <string name="click_to_add_text">There is no text, please add text first, click the button in the upper right corner to add and edit text</string>
+    <string name="input_text_dialog_title">Add text</string>
+    <string name="edit_text_dialog_title">Edit text</string>
+    <string name="please_select_text_first">Please select the text you want to set the color first, and then click the color option.</string>
+    <string name="add_emoji_color_text_tips">Please enter text or emojis, the color, font and direction of the text can be modified,
+         After selecting the text, click the color option to set the color for them, you can also choose whether the font is bold, the direction of the text rotation, and you can also view the preview effect</string>
+    <string name="add_emoji_text_tips">Please enter text or emoji here first</string>
+    <string name="add_text_tips">Please enter text here first</string>
+    <string name="bold">Bold</string>
+    <string name="rotate">Rotate</string>
+    <string name="rotate0">0°</string>
+    <string name="rotate90">90°</string>
+    <string name="rotate180">180°</string>
+    <string name="rotate270">270°</string>
+    <string-array name="rotate_angle">
+        <item>0°</item>
+        <item>90°</item>
+        <item>180°</item>
+        <item>270°</item>
+    </string-array>
+
+    <string name="text_input_max_number_tips">Sorry, the text you entered exceeds the maximum number of displayed text allowed and cannot be displayed</string>
+
+    <string name="color_edit">Edit color</string>
+    <string name="color_confirm">Save color</string>
+    <string name="choose_select_all">Select all</string>
+    <string name="choose_unselect_all">Unselect all</string>
+
+    <string name="add_draw">Add graffiti</string>
+    <string name="add_animation">Add animation</string>
+    <string name="edit_draw">Edit graffiti</string>
+    <string name="delete_draw">Are you sure you want to clear the graffiti?</string>
+    <string name="save_draw">Save</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="copy">Copy</string>
+    <string name="choose_pattern">Pattern edit</string>
+    <string name="choose_pattern_first">Please select a pattern first！</string>
+    <string name="long_click_pattern_item_to_do_more">Long press list item for more operations</string>
+    <string name="program_buttons_description">Program function button description</string>
+    <string name="program_buttons_description_one">Program number and playback order</string>
+    <string name="program_buttons_description_two">Program playback times adjustment button, after adjustment, it needs to be sent to the device again to take effect</string>
+    <string name="edit_buttons_description">Edit function button description</string>
+    <string name="edit_buttons_description_edit">Edit button, click to edit the content again</string>
+    <string name="edit_buttons_description_copy">Copy button, click to copy the content</string>
+    <string name="edit_buttons_description_delete">Delete button, click to delete the content</string>
+    <string name="edit_buttons_description_top">Top button, click to put the content on the top</string>
+    <string name="edit_buttons_description_bottom">Bottom button, click to put the content of this item at the bottom</string>
+    <string name="edit_buttons_description_sort">Order adjustment button, press and hold to drag the content up and down to adjust the content order</string>
+
+    <string name="static_draw">Static</string>
+    <string name="dynamic_draw">Dynamic</string>
+    <string-array name="material_title">
+        <item>@string/dynamic_draw</item>
+        <item>@string/static_draw</item>
+    </string-array>
+
+    <string name="click_to_add_graffiti">There is no graffiti, please add graffiti first, click the button in the upper right corner to add and edit graffiti</string>
+    <string name="ask_to_save">Are you sure you want to quit and not continue editing?</string>
+    <string name="choose_all">Select all</string>
+
+    <string name="click_to_add_animation">There is no animation, please add animation first, click the button in the upper right corner to add and edit custom animation</string>
+    <string name="edit_animation">Edit animation</string>
+    <string name="edit_animation_tips">Each animation is composed of multiple static graffiti. You can click the button in the upper right corner to add multiple static graffiti to form an animation, or click the button in the upper right corner to re-edit multiple static graffiti that have been added. Slide the progress bar at the top to set the speed of the animation, click the button in the upper left corner to save the animation</string>
+    <string name="animation_speed">Speed</string>
+    <string name="animation_number_exceed">An animation cannot add more than %1$d static graffiti!</string>
+    <string name="loading_animation">Loading data....</string>
+    <string name="empty_animation_content_tips">No animation yet, an animation is composed of multiple static graffiti, please click the "+" button to add static graffiti!</string>
+    <string name="delete_animation_content_tips">Are you sure to delete the animation you have added?</string>
+
+    <string name="music_flash_setting_title">Musical rhythm</string>
+    <string name="music_list">Playlist(%1$d)</string>
+    <string name="close">Close</string>
+    <string name="no_music">Search for music failed!</string>
+    <string name="refresh_music">Failed to search for music, try to search for music again!</string>
+
+    <string name="micro_phone">Microphone Rhythm</string>
+    <string name="start_micro_phone">Start</string>
+    <string name="stop_micro_phone">Stop</string>
+
+    <string name="click_one_more_time_and_exit">Press again to exit!</string>
+    <string name="join_our_telegram">Join our telegram group</string>
+    <string name="join_our_qqchat_group">QQ群</string>
+    <string name="join_our_qqchat_group_fail">您还没有安装QQ，请先安装QQ或者安装的QQ版本不支持!</string>
+    <string name="mirror_set">Reversed display</string>
+    <string name="help_feed_back">Help and Feedback</string>
+    <string name="can_not_use_email">No mail client installed, unable to send mail, our mail contact is coolled1248@163.com</string>
+    <string name="contact_us">Contact us</string>
+    <string name="contact_us_with_email">Contact us:coolled1248@163.com</string>
+    <string name="about_us">About us</string>
+    <string name="about_us_detail">We are a technology company integrating R&amp;D, production, sales and service.
+         Mainly engaged in LED flexible screens, we focus on the field of LED flexible screens, mainly engaged in a series of products such as flexible screen sets, spliced flexible screens and battery-type flexible screens.
+         It has a strong R&amp;D team and efficient production and assembly lines, and has obtained a number of invention and utility model patents.
+\n\nWe have always been "customer-centric" and committed to providing customers with high-quality, cost-effective products and excellent services.
+         Through continuous innovation, create value for customers and enhance customer competitiveness!
+         We advocate win-win cooperation and look forward to walking with you to create a better future!
+\n\nThe following are the products we are currently selling, please search for the corresponding products in the corresponding channels to purchase:</string>
+
+    <string name="language">Language</string>
+    <string name="change_language_restart">Are you sure to switch languages?</string>
+    <string name="chinese_simplify">简体中文</string>
+    <string name="chinese_tradition">繁體中文</string>
+    <string name="english">English</string>
+    <string name="spanish">Español</string>
+    <string name="portuguese">Português</string>
+    <string name="germany">Deutsch</string>
+    <string name="korea">한국어</string>
+    <string name="japan">日本語</string>
+    <string name="russia">Русский</string>
+    <string name="france">Français</string>
+    <string name="italy">Italiano</string>
+    <string name="vietnam">Tiếng Việt</string>
+    <string name="thailand">แบบไทย</string>
+    <string name="arabic">عربي</string>
+    <string name="hebrew">עִברִית</string>
+    <string name="hindi">हिन्दी</string>
+    <string name="turkey">Türkçe</string>
+    <string name="rumanian">limba română</string>
+    <string name="poland">Polski</string>
+    <string name="netherlands">Nederlands</string>
+    <string name="czech">čeština</string>
+    <string name="bulgarian">български</string>
+    <string name="greek">ελληνικά</string>
+    <string name="croatian">hrvatski</string>
+    <string name="slovak">Slovák</string>
+    <string name="slovenian">slovenščina</string>
+    <string-array name="language_array">
+        <item>@string/english</item>
+        <item>@string/france</item>
+        <item>@string/spanish</item>
+        <item>@string/portuguese</item>
+        <item>@string/germany</item>
+        <item>@string/russia</item>
+        <item>@string/italy</item>
+        <item>@string/korea</item>
+        <item>@string/japan</item>
+        <item>@string/chinese_simplify</item>
+        <item>@string/chinese_tradition</item>
+        <item>@string/vietnam</item>
+        <item>@string/thailand</item>
+        <item>@string/arabic</item>
+        <item>@string/hebrew</item>
+        <item>@string/hindi</item>
+        <item>@string/turkey</item>
+        <item>@string/rumanian</item>
+        <item>@string/poland</item>
+        <item>@string/netherlands</item>
+        <item>@string/czech</item>
+        <item>@string/bulgarian</item>
+        <item>@string/greek</item>
+        <item>@string/croatian</item>
+        <item>@string/slovak</item>
+        <item>@string/slovenian</item>
+    </string-array>
+
+    <string name="user_guide">Notice!</string>
+    <string name="user_guide_title">Thank you so much for purchasing our product! Before use, please read the following precautions carefully:</string>
+    <string name="matters_need_to_know">Matters needing attention:</string>
+    <string name="user_guide_detail">
+         1. Please confirm whether the power supply meets the requirements! The power requirement of the USB power supply is 5V/2A, and please do not use a computer or electricity
+The TV and the car\'s USB ports provide power to the device.
+\n\n2. Please confirm whether the power supply is turned on normally, whether the switch on the power cord is turned on, and whether other connectors are in good contact.
+\n\n3. Please confirm whether the permission requested by the APP is turned on, and whether the Bluetooth of the mobile phone is turned on.
+\n\n4. When your display screen works normally and displays the content, you can click the [Next] button on the screen to
+Pull down on the device list page of the APP to refresh the search, and connect the device to start your exploration journey.
+\n\n5. If you need help, please click the [Contact Us] button at the bottom of the screen to contact us, we are very happy
+Help is available and will get back to you as soon as possible!
+\n\n\n\nThank you again for your purchase and wish you a happy use!
+       </string>
+    <string name="next">Next step</string>
+    <string name="how_to_use">How to use?</string>
+
+    <string name="kill_app">Exit the app</string>
+    <string name="remind_later">Remind later</string>
+    <string name="update_now">Update immediately</string>
+    <string name="update_failure">Update failed</string>
+
+    <string name="tip">Tips</string>
+    <string name="go_to_set">Go to Settings</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+
+    <string name="ble_not_supported">Your device does not support Bluetooth Low Energy (Ble)!</string>
+    <string name="location_permission_tips">According to the latest Bluetooth protocol of Google developers, Android6.0 and above systems need to enable location permission to search for Bluetooth devices. Otherwise, no device can be searched, the function of the control device will not be used, the application will not be able to use and exit, and the location needs to be opened. Permission?</string>
+    <string name="location_permission_denied_tips">If the location permission is not enabled, the Bluetooth device will not be searched, the function of the control device will not be available, and the application will not be able to use and exit. Are you sure that the location permission is not enabled?</string>
+    <string name="gpsNotifyMsg">According to the latest Bluetooth protocol of Google developers, the system scanning device above Android6.0 needs to open the positioning function. Otherwise, no device can be searched, the function of the control device will not be used, the application will not be able to use and exit, agree to open the positioning function?</string>
+    <string name="bluetooth_not_opened">Without turning on Bluetooth, the app will not be able to use and exit, are you sure you don\'t want to turn on Bluetooth?</string>
+    <string name="gps_not_opened">Without opening the positioning function, Bluetooth cannot search for the device, the application will not be able to use and exit, is it sure that the positioning function is not turned on?</string>
+    <string name="music_permission_tips">This function requires access to music files or microphones. According to the system requirements of Android 6.0 and above, it is necessary to open the storage permission to access and play music. To access the microphone, you need to enable the microphone permission, otherwise you cannot play music. Do you agree to turn on storage and microphone permissions?</string>
+    <string name="mic_permission_tips">This function requires access to the microphone. According to the system requirements of Android 6.0 and above, access to the microphone requires the access to the microphone. Is it agreed to open the microphone permission?</string>
+    <string name="music_permission_no_tips">Without the storage and microphone permissions, the music will not play, are you sure to open the permissions?</string>
+    <string name="mic_permission_no_tips">If the microphone permission is not enabled, this function cannot be used. Are you sure to enable the microphone permission?？</string>
+    <string name="write_storage_permission_hint">You do not have authorized file storage access, please re-try after opening the authorization in the settings</string>
+    <string name="open_location_permission_in_the_settings">Please manually open the location permission of the APP in the permission management of the system settings</string>
+    <string name="open_storage_permission_in_the_settings">Please manually open the storage permission of the APP in the permission management of the system settings</string>
+    <string name="open_mic_permission_in_the_settings">Please manually open the microphone permission of the APP in the permission management of the system settings</string>
+    <string name="open_storage_or_mic_permission_in_the_settings">Please manually open the storage and microphone permissions of the APP in the permission management of the system settings</string>
+    <string name="open_storage_permission_for_update">The APP will automatically detect version updates, update fixed animations and graffiti, all of which require you to open the storage permission to download the latest data from the server and save it locally. Do you agree to open the storage permission?</string>
+    <string name="open_storage_permission_for_update_denied">If the storage permission is not turned on, the APP will not be able to download the latest data from the server and save it locally, so it cannot detect the version update and update the fixed animation and graffiti. Are you sure not to open the storage permission?</string>
+    <string name="ask_to_open_ble_permissions">Searching and connecting to Bluetooth low energy devices requires the permission to search and connect to Bluetooth devices, otherwise the device cannot be searched and connected, and the app will be unusable and exit, turn on the permission to search and connect?</string>
+    <string name="ask_to_open_ble_permissions_denied">If you do not open the permissions to search and connect devices, the app will not be able to be used and exit. Are you sure you do not open the permissions to search and connect devices?</string>
+    <string name="please_open_ble_permissions_in_the_settings">Please manually open the APP\'s search and connect Bluetooth low energy device permissions in the permission management of the system settings</string>
+
+    <string name="power_title">What kind of power supply does this device require?</string>
+    <string name="power_content">When using this device, please check the USB power supply specification, the voltage should not exceed 5V, and the current should not be lower than 2A. Do not use the USB of a computer or TV to power the device.</string>
+    <string name="maximum_connections">How many devices can the APP support at the same time?</string>
+    <string name="maximum_connections_content">The APP supports connecting multiple devices at the same time. The android system supports connecting up to 7 devices at the same time. The maximum number of connections supported by different types of mobile phones is different. Problems can arise when connecting multiple devices at the same time. It is not recommended to connect too many devices at the same time.</string>
+    <string name="search_device_title">What if the device is not found?</string>
+    <string name="connect_device_title">What if I can\'t connect to the device?</string>
+    <string name="send_data_title">What should I do if sending data fails?</string>
+    <string name="upside_down_title">What if the display is upside down?</string>
+    <string name="upside_down_content">If you encounter the problem that the text or pattern display on the LED screen is reversed (mirror display), you can quickly double-click the power switch (not the switch button of the app) or the control box of the device to adjust, or switch the mirror display on the settings page to adjust.</string>
+    <string name="permission_title">Why are sensitive permissions required?</string>
+    <string name="permission_content">\n\n1. The APP does not collect any personal location information. Since the APP and the device use the Bluetooth low energy protocol, according to the latest Bluetooth protocol of Google developers, the system above Android 6.0 needs to enable the location permission to search for Bluetooth low energy. device, otherwise the device cannot be searched. For details, please refer to: https://developer.android.com/guide/topics/connectivity/bluetooth-le
+          \n\n2. When you grant file storage access, the APP will automatically search for music files in your phone, and then display them in the music list. If the music list is not displayed, please first check whether the APP\'s file storage access permission is authorized. If file storage access is not enabled, music files cannot be loaded and displayed; then you will need to manually download music to your phone or import music files to your phone from a computer. The music page automatically loads and displays the music.
+          \n\n3 The APP automatic version update detection function requires you to authorize the file storage access permission to download the APP installation file</string>
+    <string name="sound_title">How to use the music and microphone functions?</string>
+    <string name="sound_content">The Music and Mic function is a music rhythm function. After entering the music and microphone page, you need to enable file storage and microphone permissions to use it. After these permissions are authorized, the APP will automatically search for local music files on the music page and load them into the music list. During the music playback process, the APP will process the data of the music rhythm and control the LED display to rhythm with the music rhythm. Therefore, , you need to download music files in your Android phone in advance or import music files into your phone to use the music function. On the microphone page, the APP will collect and process the sound of the outside world, and control the LED display to rhythm with the rhythm of the outside sound.</string>
+    <string name="password_title">How does the password protection function work?</string>
+    <string name="password_content">Our devices come in different models, some models are password protected and some are not. After a device that supports password protection is successfully connected, the APP needs to verify the password with the device. The default password is 00000. After each connection is successful, you need to verify the password. If the password is not verified after one minute, the device will automatically disconnect. If the verification fails within one minute, the device will be disconnected from the APP. When the APP connects to the device, the APP cannot send data but the password verification is unsuccessful\n\n
+You can also manually set a password to connect to the device. The password consists of six digits. After the password is set successfully and the device is successfully connected, the APP uses the password you set to verify the password with the device. If you forget the password, you can only restore the device to factory settings by pressing and holding the power button of the device. \n\n
+In the device list, you can click the Password button in the options to change the password.</string>
+    <string name="input_limited_content">Due to the limited storage space of the device, the text input content is limited. The maximum number of input characters supported by the device is related to the number of columns required to display the text. When you are entering text, if the text content you enter exceeds the maximum number of characters supported by the device, the APP will remind you The number of characters entered exceeds the maximum supported display count.</string>
+    <string name="input_limited_title">Why is the number of text input limited?</string>
+    <string name="ask_for_help_content">When the help and feedback we provide still can\'t help you, you can send me an email for help, our email is: coolled1248@163.com; you can also click on the telegram group entry on the APP\'s settings page to join Our telegram group communicates with users of the community for help.</string>
+    <string name="ask_for_help_title">What should I do if the above content still can\'t solve your problem?</string>
+    <string name="device_not_work_title">What if the equipment does not work?</string>
+    <string name="device_not_work_content">Please check whether the USB interface has power and is a 5V/2A interface, whether the switch of the power cord is turned off, or whether the contact is good. You can try to power on again. Under normal circumstances, as long as the power is turned on, the screen will light up and work normally.</string>
+
+    <string-array name="help_titles">
+        <item>@string/how_to_use</item>
+        <item>@string/device_not_work_title</item>
+        <item>@string/power_title</item>
+        <item>@string/search_device_title</item>
+        <item>@string/connect_device_title</item>
+        <item>@string/password_title</item>
+        <item>@string/maximum_connections</item>
+        <item>@string/send_data_title</item>
+        <item>@string/input_limited_title</item>
+        <item>@string/upside_down_title</item>
+        <item>@string/permission_title</item>
+        <item>@string/sound_title</item>
+        <item>@string/ask_for_help_title</item>
+    </string-array>
+
+    <string-array name="help_content">
+        <item>@string/how_to_use</item>
+        <item>@string/device_not_work_content</item>
+        <item>@string/power_content</item>
+        <item>@string/search_device_failed</item>
+        <item>@string/connect_device_failed</item>
+        <item>@string/password_content</item>
+        <item>@string/maximum_connections_content</item>
+        <item>@string/send_data_three_times_and_failed</item>
+        <item>@string/input_limited_content</item>
+        <item>@string/upside_down_content</item>
+        <item>@string/permission_content</item>
+        <item>@string/sound_content</item>
+        <item>@string/ask_for_help_content</item>
+    </string-array>
+    <string name="text_update_describe">
+      This interface has been updated, mainly:
+\n1. Added effect preview function.
+\n2. Add bold and thin options, add text rotation
+\n3. Add mode selection to solve the problem of text being cut off.
+\n4. Add a Send Preview button.
+    </string>
+    <string name="text_update_describe_end">
+     To review this post again, click the tip button in the upper right corner.
+    </string>
+    <string name="brightness">Brightness</string>
+    <string name="auto_play">自动播放</string>
+    <string name="help_center">Help center</string>
+    <string name="app_version_update">Check for updates</string>
+    <string name="checking_update">Checking for version updates in the background!</string>
+    <string name="newest_version_no_need_to_update">Already the latest version!</string>
+    <string name="ask_to_update">Are you sure you want to update?</string>
+    <string name="ask_to_force_update">Are you sure to force update?</string>
+    <string name="hardware_version_update">Hardware upgrade</string>
+    <string name="hardware_version_update_content">The current hardware can be upgraded. Do you want to upgrade immediately?</string>
+    <string name="youtube">youtube</string>
+    <string name="twitter">twitter</string>
+    <string name="tiktok">tiktok</string>
+    <string name="douyin">抖音</string>
+    <string name="qq">qq</string>
+    <string name="email">Email us</string>
+    <string name="business">商务</string>
+    <string name="edit_program">Edit program</string>
+    <string name="add_program">Add program</string>
+    <string name="save_program_name_title">Save program</string>
+    <string name="save_program_name_hint">Please enter the program name you want to save</string>
+    <string name="save_program_input_empty">The input is empty, please enter the name of the program you want to save!</string>
+    <string name="please_add_program_content">No content yet, please edit the program content first!</string>
+    <string name="input_over_max_number">Up to 150 characters can be entered!</string>
+    <string name="add_text">Add text</string>
+    <string name="edit_text">Edit text</string>
+    <string name="add_content">添加文字</string>
+    <string name="edit_content">添加文字</string>
+    <string name="choose_template">Choose template</string>
+    <string name="please_choose_program_first">Please select programs before sending!</string>
+    <string name="please_choose_material">Please select a material!</string>
+    <string-array name="help_titles_32">
+        <item>@string/device_not_work_title</item>
+        <item>@string/search_device_title</item>
+        <item>@string/connect_device_title</item>
+        <item>@string/password_title</item>
+        <item>@string/send_data_title</item>
+        <item>@string/upside_down_title</item>
+        <item>@string/ask_for_help_title</item>
+    </string-array>
+
+    <string-array name="help_content_32">
+        <item>@string/device_not_work_content</item>
+        <item>@string/search_device_failed</item>
+        <item>@string/connect_device_failed</item>
+        <item>@string/password_content</item>
+        <item>@string/send_data_three_times_and_failed</item>
+        <item>@string/upside_down_content</item>
+        <item>@string/ask_for_help_content</item>
+    </string-array>
+    <string name="long_click_to_share_desc">Long press the content in the list to "share" the content</string>
+    <string name="share_function_title">Share function description</string>
+    <string name="click_to_share_desc">Share: Through the "Share function", the edited content can be shared with other users through a third-party "social platform"
+\n\nImport: The user who receives the shared content can import it by selecting "COOILED1248" in the "Open with other applications" function interface.</string>
+    <string name="import_data_error">The imported data format is incorrect.</string>
+    <string name="import_device_error">The imported data type does not match device.</string>
+    <string name="check_in_animation_list_page">Please check in animation list.</string>
+    <string name="check_in_graffiti_list_page">Please check in the graffiti list.</string>
+    <string name="check_in_program_list_page">Please check in the program list.</string>
+    <string name="pixel">Pixel:%1$sx%2$s</string>
+    <string name="import_success">Imported successfully</string>
+    <string name="import_failure">Import failed</string>
+    <string name="drive_content">Driving Contents</string>
+    <string name="choose_drive_state">Choose state</string>
+    <string name="key_edit">Key editing</string>
+    <string name="drive_forward">Go straight</string>
+    <string name="drive_left">Turn left</string>
+    <string name="drive_right">Turn right</string>
+    <string name="drive_emergency">Emergency</string>
+    <string name="drive_park">Brake</string>
+    <string name="drive_distance">Kilometer</string>
+    <string name="drive_speed">Speed</string>
+    <string name="drive_time">Time</string>
+    <string-array name="drive_state">
+        <item>@string/drive_forward</item>
+        <item>@string/drive_left</item>
+        <item>@string/drive_right</item>
+        <item>@string/drive_park</item>
+        <item>@string/drive_emergency</item>
+    </string-array>
+    <string name="enable_password">Do you want to enable the password function?</string>
+    <string name="need_gps_open">In order to obtain performance data, you need to turn on the GPS permission. Please turn on the GPS positioning permission manually?</string>
+    <string name="gps_not_open_cannot_get_motion_data">Without turning on the GPS positioning permission, the performance data cannot be obtained.</string>
+    <string name="need_location_permission">In order to obtain motion data, the location information of the device needs to be obtained. Do you agree to obtain the location information of the device?</string>
+    <string name="need_location_permission_denied">In order to obtain motion data, you need to obtain the location information of the device. Otherwise, the motion data cannot be obtained. Are you sure you do not agree to obtain the location information of the device?</string>
+    <string name="need_location_permission_denied_tips">If you do not agree to obtain the device\'s location information, you cannot obtain motion data!</string>
+    <string name="need_image_permission">To import pictures, you need to enable the storage permission or the permission to read the system picture library. Do you agree to enable it?</string>
+    <string name="need_image_permission_denied">Pictures cannot be imported without enabling storage permission or accessing the system image library. Are you sure you do not enable storage permission or accessing the system image library?</string>
+    <string name="need_image_permission_denied_tips">Pictures cannot be imported without enabling storage permission or permission to read the system picture library!</string>
+    <string name="share">Share</string>
+    <string name="to_top">To top</string>
+
+    <string name="image">Picture</string>
+    <!--    <string name="confirm">确定</string>-->
+    <string name="preview">Preview</string>
+    <string name="select">Choose</string>
+    <string name="all_picture">All pictures</string>
+    <string name="confirm_maxcount">Confirm(%1$d/%2$d)</string>
+    <string name="confirm_count">Confirm(%1$d)</string>
+    <string name="preview_count">Preview(%1$d)</string>
+    <string name="scaleDownShowBehavior">com.winfo.photoselector.widget.ScaleDownShowBehavior</string>
+    <string name="need_camera_permission">Taking pictures requires turning on the camera permission. Do you agree to turn it on?</string>
+    <string name="need_camera_permission_denied">You cannot take photos without turning on the camera permission. Are you sure you don\'t want to turn on the camera permission?</string>
+    <string name="need_camera_permission_denied_tips">You can\'t take pictures without turning on the camera permission!</string>
+    <string name="upgrade_success">Hardware upgrade successful!</string>
+    <string name="upgrade_failed">Hardware upgrade failed!</string>
+    <string name="reload">Reload</string>
+    <string name="no_data_for_now">No content yet</string>
+    <string name="get_data_failed">Failed to get data!</string>
+    <string name="item_not_load_finished">The selected material was not loaded successfully!</string>
+    <string name="no_network_please_check">Network is unavailable,please check network settings</string>
+    <string name="font_size">Font size</string>
+    <string name="font_spacing">Spacing</string>
+    <string name="frame_number">Frames</string>
+    <string name="add_new">Add</string>
+    <string name="move_to_last_frame">Move to the previous frame</string>
+    <string name="move_to_next_frame">Move to the next frame</string>
+    <string name="text_size_auto_fit">Adaptive</string>
+    <string name="distance">Distance</string>
+    <string name="speed_unit">Speed Unit</string>
+    <string name="kms">km/h</string>
+    <string name="km">km</string>
+    <string name="mph">MPH</string>
+    <string name="mi">mi</string>
+    <string-array name="speed_unit_arry">
+        <item>@string/kms</item>
+        <item>@string/mph</item>
+    </string-array>
+    <string name="import_image_tips">This function can import pictures from the mobile phone album.
+However, due to the low resolution of the LED display, complex pictures cannot be displayed clearly.
+Please enlarge the picture when using it to display the details. For LOGO, advertising words, it has a better effect.</string>
+    <string name="coolledx_long_click_to_edit_imge_tips">Long press the content in the list to \"edit\" the content.
+After editing is completed, save it.
+Can be viewed in the graffiti or animation list</string>
+    <string name="not_remind_again">Don\'t remind again</string>
+    <string name="color_palette">Color palette</string>
+    <string name="common_color">Common colors</string>
+    <string name="copy_area_success">Copied successfully</string>
+    <string name="please_select_area">Please select an area</string>
+    <string name="please_copy_area">Please copy the area</string>
+    <string name="rgb">RGB</string>
+    <string name="hsl">HSL</string>
+    <string-array name="color_palette_bar">
+        <item>@string/hsl</item>
+        <item>@string/rgb</item>
+    </string-array>
+    <string name="discover">Discover</string>
+    <string name="timer_switch">Timer switch</string>
+    <string name="alarm_clock">Alarm clock</string>
+    <string name="reminder">Remind</string>
+    <string name="countdown">Countdown</string>
+    <string name="stopwatch">Stopwatch</string>
+    <string name="scoreboard">Scoreboard</string>
+    <string name="clock">Clock</string>
+    <string name="please_choose_clock_style">Please select a clock style!</string>
+    <string name="lighting">灯光</string>
+    <string name="score_board_tips">
+        1.Slide up and down to adjust the score\n
+        2.Click to increase the score\n
+        3.Long press the score to edit</string>
+    <string name="score_board_tips1">
+        Long press the score to edit</string>
+    <string name="sync_status">Synchronizing...</string>
+    <string name="restore_score_board">Restore scoreboard?</string>
+    <string name="clear">Clear</string>
+    <string name="edit_score">Edit Score</string>
+    <string name="edit_score_input_hint">Please enter a value between 0 and 999</string>
+    <string name="edit_score_total_input_hint">Please enter a value between 0 and 9</string>
+    <string name="timer_switch_open">Startup</string>
+    <string name="timer_switch_close">Shutdown</string>
+    <string name="timer_switch_repeat">Repeat</string>
+    <string name="timer_switch_task">Task</string>
+    <string name="timer_switch_edit">Edit Timing</string>
+    <string name="timer_switch_delete">Delete</string>
+    <string name="timer_switch_mon">Monday</string>
+    <string name="timer_switch_tue">Tuesday</string>
+    <string name="timer_switch_wed">Wednesday</string>
+    <string name="timer_switch_thu">Thursday</string>
+    <string name="timer_switch_fri">Friday</string>
+    <string name="timer_switch_sat">Saturday</string>
+    <string name="timer_switch_sun">Sunday</string>
+    <string name="timer_switch_never">Never</string>
+    <string name="timer_switch_four_items_at_most">Supports up to four timer switches!</string>
+    <string name="rotate_display">Screen flip</string>
+    <string name="rotate_display_no">No flip</string>
+    <string name="rotate_display_xy">XY-Flip</string>
+    <string name="rotate_display_x">X-Flip</string>
+    <string name="rotate_display_y">Y-Flip</string>
+    <string name="hide_or_show_device_id">Show power-on ID</string>
+    <string name="remote">Remote Control</string>
+    <string name="remote_is_support_info">If the model does not include a remote control, please turn off this function</string>
+    <string name="hour">h</string>
+    <string name="minute">m</string>
+    <string name="seconds">s</string>
+    <string name="reset">Reset</string>
+    <string-array name="ux_lights_title">
+        <item>@string/color</item>
+        <item>@string/mode</item>
+    </string-array>
+    <string name="ask_to_delete_color">Do you want to remove the color?</string>
+    <string name="moving_internal">Moving interval</string>
+    <string name="max_device_connect_at_the_same_time">Supports up to 3 devices connected simultaneously!</string>
+    <string name="device_choose">Device selection</string>
+    <string name="auto_sync">Auto sync</string>
+    <string name="choose_device_before_send">Please select the device before sending!</string>
+    <string name="choose_device_send_tip">If you need to manually set up multiple devices to display synchronously, you can click the switch button, or power off and restart multiple devices at the same time.</string>
+    <string name="mirror_text">Mirror</string>
+    <string name="phone_album">Photo Album</string>
+    <string name="devil_eyes">Devil Eyes</string>
+    <string name="add_devil_eyes">Add Devil Eyes</string>
+    <string name="edit_devil_eyes">Edit Devil Eyes</string>
+    <string name="swap_screen_order">Swap screen order</string>
+    <string name="swap_screen_order_tips">If the content displayed on the screen is incorrect, please check [Swap screen order]</string>
+    <string name="devil_eyes_content">Devil Eyes content</string>
+    <string name="connect_two_device_at_most">Connect two devices at most!</string>
+    <string name="please_edit_devil_eyes">Please edit Devil Eyes!</string>
+    <string name="added_the_program_list">Saved to program list!</string>
+    <string name="only_enlish_supported">Only English characters and symbols can be entered</string>
+    <string name="dynamic_text">Dynamic Text</string>
+    <string name="dynamic_text_mode">Dynamic Effects</string>
+    <string-array name="dynamic_text_mode_list">
+        <item>Zoom</item>
+        <item>@string/rotate</item>
+        <item>Fly In</item>
+        <item>Flip</item>
+        <item>Closing</item>
+        <item>Light Up</item>
+        <item>Lines</item>
+        <item>Bouncing</item>
+        <!--        <item>Type writer</item>-->
+        <item>Fan-shaped</item>
+    </string-array>
+    <string name="bg_image">Background Image</string>
+    <string name="no_bg_image">No background</string>
+    <string name="have_bg_image">Background</string>
+    <string name="please_input_new_show_speed">Please enter a number between 1-100</string>
+    <string name="please_input_table_show_speed">Please enter a number between 1-50</string>
+    <string name="please_input_new_stay_time">Please enter a number between 0-60</string>
+    <string name="max_dynamic_text_input_exceeded">Maximum text input limit exceeded!</string>
+    <string name="on_line_material">Online Materials</string>
+    <string name="local_material">Local Listings</string>
+    <string-array name="ux_eyes_title">
+        <item>@string/on_line_material</item>
+        <item>@string/local_material</item>
+    </string-array>
+    <string name="added_to_the_local_list">Saved to local list!</string>
+    <string name="no_local_list">Please select the material on the online material page and click the Save button to add the content!</string>
+    <string name="privacy_tips">
+        为保障您的使用安全与功能正常，我们需要您阅读并同意《用户隐私政策》和《服务条款》。\n
+
+在您使用本应用过程中，我们可能会申请以下权限：\n
+- 蓝牙权限：用于连接LED显示设备；\n
+- 位置信息：用于辅助蓝牙连接；\n
+- 麦克风权限：用于音乐律动功能；\n
+- 相册与存储：用于读取您的图片、音频、视频资源；\n
+- 摄像头权限：用于拍照和录制视频；\n
+- 网络权限：用于资源加载与软件更新。\n
+
+我们将严格按照隐私政策处理您的信息，您可在“用户隐私政策”中详细了解。\n\n
+
+如您同意，请点击“同意并继续”开始使用，否则请点击“拒绝并退出”关闭应用。
+</string>
+    <string name="agree_to_privacy_to_continue">同意并继续</string>
+    <string name="not_agree_to_privacy_and_exit">拒绝并退出</string>
+    <string name="privacy_title">用户隐私保护提示</string>
+    <string name="user_privacy">用户隐私政策</string>
+    <string name="user_terms">服务条款</string>
+    <string name="backup_id">备案号</string>
+    <string name="privacy">关于</string>
+
+    <string name="table_align_notice_title">Text Alignment</string>
+    <string name="table_align_notice_content">Click to select an alignment</string>
+    <string name="table_move_notice_title">Move</string>
+    <string name="table_move_notice_content">Move the entire table</string>
+    <string name="table_copy_notice_title">Copy</string>
+    <string name="table_copy_notice_content">Copy the selected cell content</string>
+    <string name="table_paste_notice_title">Paste</string>
+    <string name="table_paste_notice_content">Paste the copied content into the selected cell</string>
+    <string name="table_clear_notice_title">Clear</string>
+    <string name="table_clear_notice_content">Clear the content of the selected cell</string>
+    <string name="table_merge_notice_title">Merge/Split</string>
+    <string name="table_merge_notice_content">Merge or split the selected cells</string>
+    <string name="table_align_left">Align Left</string>
+    <string name="table_align_right">Align Right</string>
+    <string name="table_align_center">Align Center</string>
+    <string name="table_merge">Merge</string>
+    <string name="table_un_merge">Split</string>
+    <string name="table_insert_row_up">Insert Row Above</string>
+    <string name="table_insert_row_down">Insert Row Below</string>
+    <string name="table_row_height">Row Height</string>
+    <string name="table_insert_column_left">Insert Column Left</string>
+    <string name="table_insert_column_right">Insert Column Right</string>
+    <string name="table_column_width">Column Width</string>
+    <string name="table">Table</string>
+    <string name="please_choose_table_cell_first">Please select a cell!</string>
+    <string name="please_copy_table_cell_first">Please copy a cell first!</string>
+    <string name="table_edit">Edit Table</string>
+    <string name="table_add">Add Table</string>
+    <string name="table_cell_height_cannot_exceed">The maximum cell height cannot exceed 4 times the screen height!</string>
+    <string name="table_cell_width_cannot_exceed">The maximum cell width cannot exceed 4 times the screen width!</string>
+    <string name="table_height_cannot_exceed">The total width of the table cannot exceed 40 times the screen width!</string>
+    <string name="table_width_cannot_exceed">The total height of the table cannot exceed 40 times the screen height!</string>
+    <string name="table_cannot_paste">The target area is not large enough, cannot paste!</string>
+    <string name="night_light">Night light</string>
+    <string name="light_effect">Light effect</string>
+    <string-array name="iled_clock_clock_title_list">
+        <item>@string/clock</item>
+        <item>@string/night_light</item>
+        <item>@string/light_effect</item>
+    </string-array>
+    <string name="program_type">Program</string>
+    <string name="time_type">Time</string>
+    <string name="time_type_life_time">Life Time</string>
+    <string name="time_type_important_time">Important Moment</string>
+    <string name="tools_type">Tools</string>
+    <string name="tools_type_counter">Counter</string>
+    <string name="tools_type_tomato_clock">Pomodoro Clock</string>
+    <string name="life_type">Life</string>
+    <string name="life_type_temperature">Temperature &amp; Humidity</string>
+    <string name="life_type_noise">Noise Detection</string>
+    <string name="life_type_night_mode">Night Mode</string>
+    <string name="font_type">Font</string>
+    <string name="font_type_song">Song Type</string>
+    <string name="font_type_black">Black Type</string>
+    <string name="tomato_clock_tips">Configure the device\'s Pomodoro Clock levels and the time for each level. Up to 6 levels can be added.</string>
+    <string name="tomato_clock_time">%1$s minutes</string>
+    <string name="tomato_clock_input_time_tips">Please enter minutes (1-99)</string>
+    <string name="tomato_clock_add">Add Time</string>
+    <string name="tomato_clock_min_number_tips">Keep at least one Pomodoro clock</string>
+    <string name="alarm_clock_edit">Edit Alarm</string>
+    <string name="tomato_clock_save">Save Configuration</string>
+    <string name="tomato_clock_input_time_hint">Please enter a value from 1-99</string>
+    <string name="alarm_clock_last_time">Duration</string>
+    <string name="every_day">Every Day</string>
+    <string name="not_repeat">No repetition</string>
+    <string name="alarm_clock_max_number_tips">Supports up to 16 alarms!</string>
+    <string name="alarm_clock_max_empty_tips">No content yet. Please click the add button in the upper right corner to add content!</string>
+    <string name="save_program_unknow_error">Save failed, unknown error!</string>
+    <string name="silent_mode">Silent mode</string>
+</resources>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/device_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingLeft="15dp"
+    android:paddingTop="9dp"
+    android:paddingRight="15dp"
+    android:paddingBottom="9dp">
+
+
+    <FrameLayout
+        android:id="@+id/left_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="12dp">
+
+        <ImageView
+            android:id="@+id/connecting_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_connecting1"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/connect_success_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_connected1"
+            android:visibility="invisible" />
+
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/signal_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="8dp"
+        android:layout_toRightOf="@id/left_layout"
+        android:src="@drawable/ic_signal_four" />
+
+    <ImageView
+        android:id="@+id/disconnect_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_disconnect1"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/password_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="16dp"
+        android:layout_toLeftOf="@id/disconnect_img"
+        android:src="@drawable/ic_password_default1"
+        android:visibility="invisible" />
+
+    <LinearLayout
+        android:id="@+id/name_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/password_iv"
+        android:layout_toRightOf="@+id/signal_iv"
+        android:orientation="vertical">
+
+        <com.jtkj.library.widget.international.AppTextView
+            android:id="@+id/device_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:gravity="center|left"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:singleLine="true"
+            android:textColor="@color/color_f2f2f2"
+            android:textSize="16sp" />
+
+        <com.jtkj.library.widget.international.AppTextView
+            android:id="@+id/device_address_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:gravity="center|left"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:singleLine="true"
+            android:textColor="@color/color_bdbdbd"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
+

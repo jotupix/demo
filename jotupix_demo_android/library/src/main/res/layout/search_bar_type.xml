@@ -1,0 +1,57 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/search_bar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <LinearLayout
+
+        android:id="@+id/search_container"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:paddingLeft="14dp"
+        android:layout_gravity="center"
+        android:background="@drawable/common_dialog_white_bg"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/search_type_btn"
+            style="@style/text_333333_left"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:drawableRight="@drawable/drop_down_triangle"
+            android:drawablePadding="5dp"
+            android:gravity="center"
+            android:text="客户姓名"/>
+
+        <com.yyfax.common.form.ClearEditText
+            android:id="@+id/search_content_et"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@null"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:hint="@string/please_input_customer_name_for_search"
+            android:imeOptions="actionSearch"
+            android:inputType="text"
+            android:paddingLeft="14dp"
+            android:paddingStart="14dp"
+            android:singleLine="true"
+            android:textColor="@color/color_333333"
+            android:textColorHint="@color/color_cccccc"
+            android:textSize="14sp"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/cancel_btn"
+        style="@style/text_333333_center"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp"
+        android:ellipsize="none"
+        android:singleLine="true"
+        android:text="@string/cancel"/>
+</LinearLayout>

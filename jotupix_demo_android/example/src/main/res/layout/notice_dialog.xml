@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/notice_dialog_bg1"
+        android:orientation="vertical"
+        android:paddingLeft="32dp"
+        android:paddingTop="24dp"
+        android:paddingRight="32dp"
+        android:paddingBottom="24dp">
+
+        <com.jtkj.library.widget.international.AppTextView
+            android:id="@+id/title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="24dp"
+            android:gravity="center"
+            android:text="@string/tip"
+            android:textColor="@color/color_333333"
+            android:textSize="18sp" />
+
+        <com.jtkj.library.widget.international.AppTextView
+            android:id="@+id/content_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="24dp"
+            android:gravity="left|center_vertical"
+            android:text="@string/tip"
+            android:textColor="@color/color_333333"
+            android:textSize="14sp" />
+
+
+        <com.jtkj.library.widget.international.AppRadioButton
+            android:id="@+id/confirm_btn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/dialog_confirm_btn_bg1"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/confirm"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <com.jtkj.library.widget.international.AppRadioButton
+            android:id="@+id/cancel_btn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/dialog_cancel_btn_bg1"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/cancel"
+            android:textColor="@color/color_7a6aee"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

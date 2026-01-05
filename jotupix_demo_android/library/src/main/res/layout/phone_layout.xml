@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_transparent"
+    android:orientation="horizontal" >
+
+    <com.yyfax.common.form.PwdEditText
+        android:id="@+id/edit_text"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/color_transparent"
+        android:ellipsize="end"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="12dp"
+        android:drawablePadding="9dp"
+        android:maxLines="1"
+        android:saveEnabled="false"
+        android:textColor="@color/color_333333"
+        android:textColorHint="@color/color_cccccc"
+        android:textSize="15sp" />
+
+    <ViewStub
+        android:id="@+id/show_pwd_stub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout="@layout/show_pwd_layout"/>
+</merge>

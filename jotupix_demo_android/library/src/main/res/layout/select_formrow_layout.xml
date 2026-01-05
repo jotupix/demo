@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/filter_right_text"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="left|center_vertical"
+    android:background="@null"
+    android:maxLines="1"
+    android:textColor="@color/color_000000"
+	android:textColorHint="@color/color_cccccc"
+    android:textSize="15sp"
+    android:freezesText="true"
+    android:drawableRight="@drawable/right_arrow_icon"
+    android:paddingRight="14dp"
+    android:paddingEnd="14dp"
+	android:saveEnabled="false"/>

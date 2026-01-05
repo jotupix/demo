@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Banner">
+        <attr name="delay_time" format="integer" />
+        <attr name="scroll_time" format="integer" />
+        <attr name="is_auto_play" format="boolean" />
+        <attr name="is_loop" format="boolean" />
+        <attr name="title_background" format="color|reference" />
+        <attr name="title_textcolor" format="color" />
+        <attr name="title_textsize" format="dimension" />
+        <attr name="title_height" format="dimension" />
+        <attr name="indicator_width" format="dimension" />
+        <attr name="indicator_height" format="dimension" />
+        <attr name="indicator_margin" format="dimension" />
+        <attr name="indicator_padding" format="dimension" />
+        <attr name="indicator_drawable_selected" format="reference" />
+        <attr name="indicator_drawable_unselected" format="reference" />
+        <attr name="banner_default_image" format="reference" />
+        <!-- 设置左右2边缩进距离 -->
+        <attr name="page_left_margin" format="dimension" />
+        <attr name="page_right_margin" format="dimension" />
+        <attr name="arc_height" format="dimension" />
+        <attr name="arc_start_color" format="color|reference" />
+        <attr name="arc_end_color" format="color|reference" />
+        <attr name="arc_direction" format="enum">
+            <enum name="up" value="0" />
+            <enum name="down" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="IRecyclerView">
+        <attr name="refreshHeaderLayout" format="reference" />
+        <attr name="loadMoreFooterLayout" format="reference" />
+        <attr name="refreshEnabled" format="boolean" />
+        <attr name="loadMoreEnabled" format="boolean" />
+        <attr name="refreshFinalMoveOffset" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="InkPageIndicator">
+        <attr name="dotDiameter" format="dimension" />
+        <attr name="dotGap" format="dimension" />
+        <attr name="animationDuration" format="integer" />
+        <attr name="pageIndicatorColor" format="color" />
+        <attr name="currentPageIndicatorColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="RoundCornerIndicator">
+        <!-- width of indicators -->
+        <attr name="rci_width" format="dimension" />
+        <!-- height of indicators -->
+        <attr name="rci_height" format="dimension" />
+        <!-- the spacing between the indicator. -->
+        <attr name="rci_gap" format="dimension" />
+        <!-- cornerRadius of the indicator. -->
+        <attr name="rci_cornerRadius" format="dimension" />
+        <!-- width of the stroke used to draw the indicators. -->
+        <attr name="rci_strokeWidth" format="dimension" />
+        <!-- color of the indicator that represents the current page. -->
+        <attr name="rci_selectColor" format="color" />
+        <!-- color of the indicator that represents pages. -->
+        <attr name="rci_unselectColor" format="color" />
+        <!-- color of the stroke used to draw the indicators. -->
+        <attr name="rci_strokeColor" format="color" />
+        <!-- Whether or not the selected indicator snaps to the indicators. -->
+        <attr name="rci_isSnap" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleWaterWaveView">
+        <attr name="max" format="integer" />
+        <attr name="progress" format="integer" />
+        <attr name="textColor" format="color" />
+        <attr name="strokeColor" format="color" />
+        <attr name="waterColor" format="color" />
+        <attr name="backgroudColor" format="color" />
+        <attr name="textSize" format="dimension" />
+        <attr name="strokeSize" format="dimension" />
+        <attr name="amplitude" format="float" />
+        <attr name="increase" format="float" />
+        <attr name="waterSpeed" format="integer" />
+        <attr name="upSpeed" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="TabView">
+        <attr name="tabIconNormal" format="reference" />
+        <attr name="tabIconSelected" format="reference" />
+        <attr name="tabText" format="string" />
+        <attr name="tabTextSize" format="dimension" />
+        <attr name="textColorNormal" format="color" />
+        <attr name="textColorSelected" format="color" />
+        <attr name="badgeBackgroundColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="progress">
+        <attr name="testHeight" format="dimension" />
+        <attr name="finishHeight" format="dimension" />
+        <attr name="unFinishHeight" format="dimension" />
+        <attr name="finishColor" format="color" />
+        <attr name="unFinishColor" format="color" />
+        <attr name="offectWidth" format="dimension" />
+        <attr name="isHorizontalStyle" format="boolean" />
+        <attr name="radius" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="waveprogress">
+        <attr name="cirwidth" format="dimension" />
+        <attr name="cirColor" format="color" />
+        <attr name="waveColor" format="color" />
+        <attr name="belowColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="SearchBar">
+        <attr name="fillSearchContent" format="boolean" />  <!--用于扩展，展业暂未用到，默认为true-->
+        <attr name="android:hint" />
+        <attr name="type">
+            <enum name="simpleNormal" value="1" />    <!--简单的标准搜索栏-->
+            <!--<enum name="complexNormal" value="2"/>    &lt;!&ndash;复合体的标准搜索栏&ndash;&gt;-->
+            <enum name="simpleType" value="3" /> <!--简单的携带搜索类型的搜索栏-->
+            <enum name="complexType" value="4" /> <!--复合体的携带搜索类型的搜索栏-->
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="FormRow">
+        <attr name="android:drawableLeft" />
+        <attr name="android:drawableRight" />
+        <attr name="android:paddingRight" />
+        <attr name="drawRightPadding" format="dimension" /> <!--right两张图片之间的间隔-->
+        <attr name="eyeDrawable" format="reference" />      <!--点击设置密码可见性的drawable-->
+        <attr name="android:hint" />
+        <attr name="android:inputType" />
+        <attr name="android:maxLength" />
+        <attr name="android:textColor" />
+
+        <attr name="checkAge" format="boolean" />
+        <attr name="leftText" format="string" />
+        <attr name="emptyFormat" format="string" />
+        <attr name="emptyKeyword" format="string" />
+        <attr name="expressionFormat" format="string" />
+        <attr name="expressionKeyword" format="string" />
+        <attr name="overRange" format="string" />
+        <attr name="amount" format="string" />     <!--必须为1000的倍数-->
+        <attr name="customType">
+            <enum name="login" value="1" />    <!--登录框-->
+            <enum name="password" value="2" /> <!--密码框-->
+            <enum name="normal" value="3" />    <!--普通-->
+            <enum name="select" value="4" /><!--点击弹出选择-->
+            <enum name="location" value="5" /><!--点击弹出选择 定位-->
+            <enum name="comPhone" value="6" /><!--公司座机-->
+            <enum name="idCard" value="7" /><!--身份证-->
+            <enum name="phone" value="8" /><!--手机号码-->
+            <enum name="bankCard" value="9" /><!--银行卡-->
+            <enum name="amount" value="10" />    <!--金额-->
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="RoundedImageView">
+        <attr name="riv_corner_radius" format="dimension" />
+        <attr name="riv_corner_radius_top_left" format="dimension" />
+        <attr name="riv_corner_radius_top_right" format="dimension" />
+        <attr name="riv_corner_radius_bottom_left" format="dimension" />
+        <attr name="riv_corner_radius_bottom_right" format="dimension" />
+        <attr name="riv_border_width" format="dimension" />
+        <attr name="riv_border_color" format="color" />
+        <attr name="riv_mutate_background" format="boolean" />
+        <attr name="riv_oval" format="boolean" />
+        <attr name="android:scaleType" />
+        <attr name="riv_tile_mode">
+            <enum name="clamp" value="0" />
+            <enum name="repeat" value="1" />
+            <enum name="mirror" value="2" />
+        </attr>
+        <attr name="riv_tile_mode_x">
+            <enum name="clamp" value="0" />
+            <enum name="repeat" value="1" />
+            <enum name="mirror" value="2" />
+        </attr>
+        <attr name="riv_tile_mode_y">
+            <enum name="clamp" value="0" />
+            <enum name="repeat" value="1" />
+            <enum name="mirror" value="2" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="StateView">
+        <attr name="emptyResource" format="reference" />
+        <attr name="errorResource" format="reference" />
+        <attr name="loadingResource" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="expandableLayout">
+        <attr name="ael_duration" format="integer" />
+        <attr name="ael_expanded" format="boolean" />
+        <attr name="ael_defaultChildIndex" format="integer" />
+        <attr name="ael_defaultPosition" format="dimension" />
+        <attr name="ael_orientation" format="enum">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+        <attr name="ael_interpolator" format="enum">
+            <enum name="accelerateDecelerate" value="0" />
+            <enum name="accelerate" value="1" />
+            <enum name="anticipate" value="2" />
+            <enum name="anticipateOvershoot" value="3" />
+            <enum name="bounce" value="4" />
+            <enum name="decelerate" value="5" />
+            <enum name="fastOutLinearIn" value="6" />
+            <enum name="fastOutSlowIn" value="7" />
+            <enum name="linear" value="8" />
+            <enum name="linearOutSlowIn" value="9" />
+            <enum name="overshoot" value="10" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="ExpandableLayout">
+        <attr name="el_duration" format="integer" />
+        <attr name="el_expanded" format="boolean" />
+        <attr name="el_parallax" format="float" />
+        <attr name="el_translate_children" format="boolean" />
+        <attr name="layout_expandable" format="boolean" />
+        <attr name="android:orientation" />
+    </declare-styleable>
+
+</resources>

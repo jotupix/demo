@@ -1,0 +1,876 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		4DC829AD2DB61E4D0012C5A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DC829892DB61E4A0012C5A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DC829902DB61E4A0012C5A0;
+			remoteInfo = JotupixDemo;
+		};
+		4DC829B72DB61E4D0012C5A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DC829892DB61E4A0012C5A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DC829902DB61E4A0012C5A0;
+			remoteInfo = JotupixDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4D4652802DD49515004ECE74 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4D1B3F5B2EE2724100076B2D /* JotusSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = JotusSDK.xcodeproj; sourceTree = "<group>"; };
+		4D1B40372EE2EA5400076B2D /* JotusSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = JotusSDK.xcodeproj; sourceTree = "<group>"; };
+		4D662B652EE7F56100B159AA /* JotusSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = JotusSDK.xcodeproj; sourceTree = "<group>"; };
+		4D662EE72EE97C8A00B159AA /* JotusSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = JotusSDK.xcodeproj; sourceTree = "<group>"; };
+		4D6630E72EE98B0D00B159AA /* JotusSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = JotusSDK.xcodeproj; sourceTree = "<group>"; };
+		4D6C1F6C2EF010BA0017C957 /* JotusSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = JotusSDK.xcodeproj; sourceTree = "<group>"; };
+		4D6FFDC02DE05D7D0036CF35 /* JotusSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = JotusSDK.xcodeproj; sourceTree = "<group>"; };
+		4D8451332EDE7CD9004740A1 /* JotusSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = JotusSDK.xcodeproj; sourceTree = "<group>"; };
+		4D99EEDD2EE65D5C0051B02F /* JotusSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = JotusSDK.xcodeproj; sourceTree = "<group>"; };
+		4D99F22F2EE6B4500051B02F /* JotusSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = JotusSDK.xcodeproj; sourceTree = "<group>"; };
+		4D99F34A2EE6CB2E0051B02F /* JotusSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = JotusSDK.xcodeproj; sourceTree = "<group>"; };
+		4D99F4682EE6DD1D0051B02F /* JotusSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = JotusSDK.xcodeproj; sourceTree = "<group>"; };
+		4DBA96722EED6F8A00310C94 /* JotusSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = JotusSDK.xcodeproj; sourceTree = "<group>"; };
+		4DC3BF542EDE88E80033BDD3 /* JotusSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = JotusSDK.xcodeproj; sourceTree = "<group>"; };
+		4DC3C0BC2EDEFD310033BDD3 /* JotusSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = JotusSDK.xcodeproj; sourceTree = "<group>"; };
+		4DC3C2EC2EDFE0B10033BDD3 /* JotusSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = JotusSDK.xcodeproj; sourceTree = "<group>"; };
+		4DC829912DB61E4A0012C5A0 /* JotupixDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JotupixDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DC829AC2DB61E4D0012C5A0 /* JotupixDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JotupixDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DC829B62DB61E4D0012C5A0 /* JotupixDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JotupixDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DCDA5252EEA510900FFFD0E /* JotusSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = JotusSDK.xcodeproj; sourceTree = "<group>"; };
+		4DD0145D2DE55601004FA3D0 /* JotusSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = JotusSDK.xcodeproj; sourceTree = "<group>"; };
+		4DF0C6F22EF021640053A9B2 /* JotusSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = JotusSDK.xcodeproj; sourceTree = "<group>"; };
+		4DF0C7A92EF022450053A9B2 /* JotusSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = JotusSDK.xcodeproj; sourceTree = "<group>"; };
+		4DF0CAB02EF1057D0053A9B2 /* JotusSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = JotusSDK.xcodeproj; sourceTree = "<group>"; };
+		4DF7CC662EE11DB400D4FFA4 /* JotusSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = JotusSDK.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		4DF0C7E82EF023BA0053A9B2 /* Exceptions for "JotupixDemo" folder in "JotupixDemo" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 4DC829902DB61E4A0012C5A0 /* JotupixDemo */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		4DC829932DB61E4A0012C5A0 /* JotupixDemo */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4DF0C7E82EF023BA0053A9B2 /* Exceptions for "JotupixDemo" folder in "JotupixDemo" target */,
+			);
+			path = JotupixDemo;
+			sourceTree = "<group>";
+		};
+		4DC829AF2DB61E4D0012C5A0 /* JotupixDemoTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = JotupixDemoTests;
+			sourceTree = "<group>";
+		};
+		4DC829B92DB61E4D0012C5A0 /* JotupixDemoUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = JotupixDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DC8298E2DB61E4A0012C5A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DC829A92DB61E4D0012C5A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DC829B32DB61E4D0012C5A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D1B3F612EE2724100076B2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D1B403D2EE2EA5400076B2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D662B6B2EE7F56100B159AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D662EED2EE97C8A00B159AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D6630ED2EE98B0D00B159AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D6C1F722EF010BA0017C957 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D6FFDF42DE05D7D0036CF35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D8451392EDE7CD9004740A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D99EEE32EE65D5C0051B02F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D99F2352EE6B4500051B02F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D99F3502EE6CB2E0051B02F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D99F46E2EE6DD1D0051B02F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DBA96782EED6F8A00310C94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DC3BF5A2EDE88E80033BDD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DC3C0C22EDEFD310033BDD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DC3C2F22EDFE0B10033BDD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DC829882DB61E4A0012C5A0 = {
+			isa = PBXGroup;
+			children = (
+				4DC829932DB61E4A0012C5A0 /* JotupixDemo */,
+				4DC829AF2DB61E4D0012C5A0 /* JotupixDemoTests */,
+				4DC829B92DB61E4D0012C5A0 /* JotupixDemoUITests */,
+				4DC829922DB61E4A0012C5A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4DC829922DB61E4A0012C5A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DC829912DB61E4A0012C5A0 /* JotupixDemo.app */,
+				4DC829AC2DB61E4D0012C5A0 /* JotupixDemoTests.xctest */,
+				4DC829B62DB61E4D0012C5A0 /* JotupixDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DCDA52B2EEA510900FFFD0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DD0196E2DE55D70004FA3D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DF0C6F82EF021640053A9B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DF0C7AF2EF022450053A9B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DF0CAB62EF1057D0053A9B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DF7CC6C2EE11DB400D4FFA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DC829902DB61E4A0012C5A0 /* JotupixDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DC829BF2DB61E4D0012C5A0 /* Build configuration list for PBXNativeTarget "JotupixDemo" */;
+			buildPhases = (
+				4DC8298D2DB61E4A0012C5A0 /* Sources */,
+				4DC8298E2DB61E4A0012C5A0 /* Frameworks */,
+				4DC8298F2DB61E4A0012C5A0 /* Resources */,
+				4D4652802DD49515004ECE74 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				4DC829932DB61E4A0012C5A0 /* JotupixDemo */,
+			);
+			name = JotupixDemo;
+			packageProductDependencies = (
+			);
+			productName = JotupixDemo;
+			productReference = 4DC829912DB61E4A0012C5A0 /* JotupixDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4DC829AB2DB61E4D0012C5A0 /* JotupixDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DC829C42DB61E4D0012C5A0 /* Build configuration list for PBXNativeTarget "JotupixDemoTests" */;
+			buildPhases = (
+				4DC829A82DB61E4D0012C5A0 /* Sources */,
+				4DC829A92DB61E4D0012C5A0 /* Frameworks */,
+				4DC829AA2DB61E4D0012C5A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DC829AE2DB61E4D0012C5A0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4DC829AF2DB61E4D0012C5A0 /* JotupixDemoTests */,
+			);
+			name = JotupixDemoTests;
+			packageProductDependencies = (
+			);
+			productName = JotupixDemoTests;
+			productReference = 4DC829AC2DB61E4D0012C5A0 /* JotupixDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4DC829B52DB61E4D0012C5A0 /* JotupixDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DC829C72DB61E4D0012C5A0 /* Build configuration list for PBXNativeTarget "JotupixDemoUITests" */;
+			buildPhases = (
+				4DC829B22DB61E4D0012C5A0 /* Sources */,
+				4DC829B32DB61E4D0012C5A0 /* Frameworks */,
+				4DC829B42DB61E4D0012C5A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DC829B82DB61E4D0012C5A0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4DC829B92DB61E4D0012C5A0 /* JotupixDemoUITests */,
+			);
+			name = JotupixDemoUITests;
+			packageProductDependencies = (
+			);
+			productName = JotupixDemoUITests;
+			productReference = 4DC829B62DB61E4D0012C5A0 /* JotupixDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DC829892DB61E4A0012C5A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					4DC829902DB61E4A0012C5A0 = {
+						CreatedOnToolsVersion = 16.2;
+						LastSwiftMigration = 1620;
+					};
+					4DC829AB2DB61E4D0012C5A0 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 4DC829902DB61E4A0012C5A0;
+					};
+					4DC829B52DB61E4D0012C5A0 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 4DC829902DB61E4A0012C5A0;
+					};
+				};
+			};
+			buildConfigurationList = 4DC8298C2DB61E4A0012C5A0 /* Build configuration list for PBXProject "JotupixDemo" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DC829882DB61E4A0012C5A0;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 4DC829922DB61E4A0012C5A0 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 4D1B3F612EE2724100076B2D /* Products */;
+					ProjectRef = 4D1B3F5B2EE2724100076B2D /* JotusSDK.xcodeproj */;
+				},
+				{
+					ProductGroup = 4D99F3502EE6CB2E0051B02F /* Products */;
+					ProjectRef = 4D99F34A2EE6CB2E0051B02F /* JotusSDK.xcodeproj */;
+				},
+				{
+					ProductGroup = 4DF7CC6C2EE11DB400D4FFA4 /* Products */;
+					ProjectRef = 4DF7CC662EE11DB400D4FFA4 /* JotusSDK.xcodeproj */;
+				},
+				{
+					ProductGroup = 4DD0196E2DE55D70004FA3D0 /* Products */;
+					ProjectRef = 4DD0145D2DE55601004FA3D0 /* JotusSDK.xcodeproj */;
+				},
+				{
+					ProductGroup = 4D6C1F722EF010BA0017C957 /* Products */;
+					ProjectRef = 4D6C1F6C2EF010BA0017C957 /* JotusSDK.xcodeproj */;
+				},
+				{
+					ProductGroup = 4D99F46E2EE6DD1D0051B02F /* Products */;
+					ProjectRef = 4D99F4682EE6DD1D0051B02F /* JotusSDK.xcodeproj */;
+				},
+				{
+					ProductGroup = 4DC3C0C22EDEFD310033BDD3 /* Products */;
+					ProjectRef = 4DC3C0BC2EDEFD310033BDD3 /* JotusSDK.xcodeproj */;
+				},
+				{
+					ProductGroup = 4DC3C2F22EDFE0B10033BDD3 /* Products */;
+					ProjectRef = 4DC3C2EC2EDFE0B10033BDD3 /* JotusSDK.xcodeproj */;
+				},
+				{
+					ProductGroup = 4D6FFDF42DE05D7D0036CF35 /* Products */;
+					ProjectRef = 4D6FFDC02DE05D7D0036CF35 /* JotusSDK.xcodeproj */;
+				},
+				{
+					ProductGroup = 4DF0CAB62EF1057D0053A9B2 /* Products */;
+					ProjectRef = 4DF0CAB02EF1057D0053A9B2 /* JotusSDK.xcodeproj */;
+				},
+				{
+					ProductGroup = 4D662B6B2EE7F56100B159AA /* Products */;
+					ProjectRef = 4D662B652EE7F56100B159AA /* JotusSDK.xcodeproj */;
+				},
+				{
+					ProductGroup = 4DCDA52B2EEA510900FFFD0E /* Products */;
+					ProjectRef = 4DCDA5252EEA510900FFFD0E /* JotusSDK.xcodeproj */;
+				},
+				{
+					ProductGroup = 4DBA96782EED6F8A00310C94 /* Products */;
+					ProjectRef = 4DBA96722EED6F8A00310C94 /* JotusSDK.xcodeproj */;
+				},
+				{
+					ProductGroup = 4D99F2352EE6B4500051B02F /* Products */;
+					ProjectRef = 4D99F22F2EE6B4500051B02F /* JotusSDK.xcodeproj */;
+				},
+				{
+					ProductGroup = 4D8451392EDE7CD9004740A1 /* Products */;
+					ProjectRef = 4D8451332EDE7CD9004740A1 /* JotusSDK.xcodeproj */;
+				},
+				{
+					ProductGroup = 4D1B403D2EE2EA5400076B2D /* Products */;
+					ProjectRef = 4D1B40372EE2EA5400076B2D /* JotusSDK.xcodeproj */;
+				},
+				{
+					ProductGroup = 4D99EEE32EE65D5C0051B02F /* Products */;
+					ProjectRef = 4D99EEDD2EE65D5C0051B02F /* JotusSDK.xcodeproj */;
+				},
+				{
+					ProductGroup = 4DF0C7AF2EF022450053A9B2 /* Products */;
+					ProjectRef = 4DF0C7A92EF022450053A9B2 /* JotusSDK.xcodeproj */;
+				},
+				{
+					ProductGroup = 4DC3BF5A2EDE88E80033BDD3 /* Products */;
+					ProjectRef = 4DC3BF542EDE88E80033BDD3 /* JotusSDK.xcodeproj */;
+				},
+				{
+					ProductGroup = 4D662EED2EE97C8A00B159AA /* Products */;
+					ProjectRef = 4D662EE72EE97C8A00B159AA /* JotusSDK.xcodeproj */;
+				},
+				{
+					ProductGroup = 4D6630ED2EE98B0D00B159AA /* Products */;
+					ProjectRef = 4D6630E72EE98B0D00B159AA /* JotusSDK.xcodeproj */;
+				},
+				{
+					ProductGroup = 4DF0C6F82EF021640053A9B2 /* Products */;
+					ProjectRef = 4DF0C6F22EF021640053A9B2 /* JotusSDK.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				4DC829902DB61E4A0012C5A0 /* JotupixDemo */,
+				4DC829AB2DB61E4D0012C5A0 /* JotupixDemoTests */,
+				4DC829B52DB61E4D0012C5A0 /* JotupixDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DC8298F2DB61E4A0012C5A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DC829AA2DB61E4D0012C5A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DC829B42DB61E4D0012C5A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DC8298D2DB61E4A0012C5A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DC829A82DB61E4D0012C5A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DC829B22DB61E4D0012C5A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4DC829AE2DB61E4D0012C5A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DC829902DB61E4A0012C5A0 /* JotupixDemo */;
+			targetProxy = 4DC829AD2DB61E4D0012C5A0 /* PBXContainerItemProxy */;
+		};
+		4DC829B82DB61E4D0012C5A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DC829902DB61E4A0012C5A0 /* JotupixDemo */;
+			targetProxy = 4DC829B72DB61E4D0012C5A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4DC829C02DB61E4D0012C5A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = TG24QQ373G;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JotupixDemo",
+					"$(PROJECT_DIR)/JotupixDemo/Demo",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JotupixDemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = JotupixDemo;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JotupixDemo",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jtkj.CoolLED1248;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = CoolLED1248_Dev_1213;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4DC829C12DB61E4D0012C5A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = TG24QQ373G;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JotupixDemo",
+					"$(PROJECT_DIR)/JotupixDemo/Demo",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JotupixDemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = JotupixDemo;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JotupixDemo",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jtkj.CoolLED1248;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = CoolLED1248_Dev_1213;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4DC829C22DB61E4D0012C5A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4DC829C32DB61E4D0012C5A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DC829C52DB61E4D0012C5A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = order.sortname.JotupixDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JotupixDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JotupixDemo";
+			};
+			name = Debug;
+		};
+		4DC829C62DB61E4D0012C5A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = order.sortname.JotupixDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JotupixDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JotupixDemo";
+			};
+			name = Release;
+		};
+		4DC829C82DB61E4D0012C5A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = order.sortname.JotupixDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JotupixDemo;
+			};
+			name = Debug;
+		};
+		4DC829C92DB61E4D0012C5A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = order.sortname.JotupixDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JotupixDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DC8298C2DB61E4A0012C5A0 /* Build configuration list for PBXProject "JotupixDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DC829C22DB61E4D0012C5A0 /* Debug */,
+				4DC829C32DB61E4D0012C5A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DC829BF2DB61E4D0012C5A0 /* Build configuration list for PBXNativeTarget "JotupixDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DC829C02DB61E4D0012C5A0 /* Debug */,
+				4DC829C12DB61E4D0012C5A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DC829C42DB61E4D0012C5A0 /* Build configuration list for PBXNativeTarget "JotupixDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DC829C52DB61E4D0012C5A0 /* Debug */,
+				4DC829C62DB61E4D0012C5A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DC829C72DB61E4D0012C5A0 /* Build configuration list for PBXNativeTarget "JotupixDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DC829C82DB61E4D0012C5A0 /* Debug */,
+				4DC829C92DB61E4D0012C5A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DC829892DB61E4A0012C5A0 /* Project object */;
+}

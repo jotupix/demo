@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="base_text_color_base_hint">#683706</color>
+	<color name="color_top_bg_white">#FFFFFFFF</color>
+	<color name="color_top_bg_blue">#FF05C8FF</color>
+	<color name="color_top_bg_login">#FF04CAED</color>
+	<color name="color_top_bg_register">#FF03C9EC</color>
+	<color name="color_white">#FFFFFF</color>
+	<color name="color_929292">#929292</color>
+	<color name="color_dfdfdf">#dfdfdf</color>
+	<color name="color_dialog_btn">#3493E8</color>
+	<color name="color_dialog_split">#DBDBDB</color>
+	<color name="color_dialog_text">#333333</color>
+	<color name="color_transparent">@android:color/transparent</color>
+
+	<color name="grey_cbd2d9">#CBD2D9</color>
+	<color name="blue_78d2f6">#78D2F6</color>
+	<color name="blue_33a3ff">#33a3ff</color>
+	<color name="blue_3300c9ff">#3300C9FF</color>
+	<color name="red_f3323b">#F3323B</color>
+	<color name="color_2b92ec">#2b92ec</color>
+	<color name="color_c4d2d6">#c4d2d6</color>
+	<color name="color_202b92ec">#202b92ec</color>
+
+	<color name="color_00B9FF">#8000B9FF</color>
+	<color name="color_92000000">#0EB4E1</color>
+	<color name="color_cccccc">#cccccc</color>
+	<color name="color_f5f5f5">#f5f5f5</color>
+	<color name="color_999999">#999999</color>
+	<color name="color_000000">#000000</color>
+	<color name="color_33a3ff">#33a3ff</color>
+	<color name="color_bb000000">#bb000000</color>
+	<color name="color_4c000000">#4c000000</color>
+	<color name="color_ffffff">#ffffffff</color>
+	<color name="color_333333">#333333</color>
+	<color name="color_66000000">#66000000</color>
+	<color name="color_22000000">#22000000</color>
+	<color name="color_ffff0000">#FFFF0000</color>
+	<color name="color_2b93ec">#2b93ec</color>
+	<color name="color_f5fbff">#f5fbff</color>
+	<color name="color_107bcaff">#107bcaff</color>
+	<color name="color_f5f8ff">#f5f8ff</color>
+	<color name="color_e6e6e6">#e6e6e6</color>
+    <color name="color_151515">#b2151515</color>
+</resources>

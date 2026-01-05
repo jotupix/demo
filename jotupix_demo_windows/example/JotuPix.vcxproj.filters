@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="serial">
+      <UniqueIdentifier>{6722d1eb-c416-4218-9cea-88b98cb86011}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BitFont">
+      <UniqueIdentifier>{acdb6a41-7b94-4e2c-9260-ef78e7623e0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="device">
+      <UniqueIdentifier>{481c0f0e-d70c-4e37-b27f-7500c562ad3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jotupix">
+      <UniqueIdentifier>{3c564195-9abd-4bca-9557-030920dce253}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jotupix\core">
+      <UniqueIdentifier>{62ed7a03-808f-4dbf-85cd-1b7900d891f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jotupix\program">
+      <UniqueIdentifier>{f3bc03ef-1546-415d-affb-528e4794befd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jotupix\utils">
+      <UniqueIdentifier>{7d8c2189-2c74-4f2e-96e9-e1cf84466653}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="JotuPixApp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CAboutDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CPageBaseDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="JotuPixDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CPageAniDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GifViewer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CSendProgressDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WmMsg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CPageTextDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CTabPageBaseDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BitFont\BitFont.h">
+      <Filter>BitFont</Filter>
+    </ClInclude>
+    <ClInclude Include="CProgramBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="device\JDeviceManager.h">
+      <Filter>device</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jotupix\core\JCrc.h">
+      <Filter>jotupix\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jotupix\core\JDefine.h">
+      <Filter>jotupix\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jotupix\core\JInfo.h">
+      <Filter>jotupix\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jotupix\core\JLzss.h">
+      <Filter>jotupix\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jotupix\core\JotuPix.h">
+      <Filter>jotupix\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jotupix\core\JPacket.h">
+      <Filter>jotupix\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jotupix\core\JProtocol.h">
+      <Filter>jotupix\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jotupix\core\JTick.h">
+      <Filter>jotupix\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jotupix\program\JColor.h">
+      <Filter>jotupix\program</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jotupix\program\JContentBase.h">
+      <Filter>jotupix\program</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jotupix\program\JGifContent.h">
+      <Filter>jotupix\program</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jotupix\program\JProgramContent.h">
+      <Filter>jotupix\program</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jotupix\program\JTextContent.h">
+      <Filter>jotupix\program</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jotupix\program\JTextDiyColorContent.h">
+      <Filter>jotupix\program</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jotupix\program\JTextFont.h">
+      <Filter>jotupix\program</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jotupix\program\JTextFullColorContent.h">
+      <Filter>jotupix\program</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jotupix\utils\JByteWriter.h">
+      <Filter>jotupix\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jotupix\utils\JLog.h">
+      <Filter>jotupix\utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="JotuPixApp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="JotuPixDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CAboutDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CPageBaseDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CPageAniDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GifViewer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CSendProgressDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="serial\src\serial.cc">
+      <Filter>serial</Filter>
+    </ClCompile>
+    <ClCompile Include="serial\src\impl\win.cc">
+      <Filter>serial</Filter>
+    </ClCompile>
+    <ClCompile Include="serial\src\impl\list_ports\list_ports_win.cc">
+      <Filter>serial</Filter>
+    </ClCompile>
+    <ClCompile Include="CPageTextDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CTabPageBaseDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BitFont\BitFont.cpp">
+      <Filter>BitFont</Filter>
+    </ClCompile>
+    <ClCompile Include="CProgramBase.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="device\JDeviceManager.cpp">
+      <Filter>device</Filter>
+    </ClCompile>
+    <ClCompile Include="..\jotupix\core\JCrc.cpp">
+      <Filter>jotupix\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\jotupix\core\JInfo.cpp">
+      <Filter>jotupix\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\jotupix\core\JLzss.cpp">
+      <Filter>jotupix\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\jotupix\core\JotuPix.cpp">
+      <Filter>jotupix\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\jotupix\core\JPacket.cpp">
+      <Filter>jotupix\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\jotupix\core\JProtocol.cpp">
+      <Filter>jotupix\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\jotupix\program\JContentBase.cpp">
+      <Filter>jotupix\program</Filter>
+    </ClCompile>
+    <ClCompile Include="..\jotupix\program\JGifContent.cpp">
+      <Filter>jotupix\program</Filter>
+    </ClCompile>
+    <ClCompile Include="..\jotupix\program\JProgramContent.cpp">
+      <Filter>jotupix\program</Filter>
+    </ClCompile>
+    <ClCompile Include="..\jotupix\program\JTextContent.cpp">
+      <Filter>jotupix\program</Filter>
+    </ClCompile>
+    <ClCompile Include="..\jotupix\program\JTextDiyColorContent.cpp">
+      <Filter>jotupix\program</Filter>
+    </ClCompile>
+    <ClCompile Include="..\jotupix\program\JTextFullColorContent.cpp">
+      <Filter>jotupix\program</Filter>
+    </ClCompile>
+    <ClCompile Include="..\jotupix\utils\JLog.c">
+      <Filter>jotupix\utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="JotuPix.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\JotuPix.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\JotuPix.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

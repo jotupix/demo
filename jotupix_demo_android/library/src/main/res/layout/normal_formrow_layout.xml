@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.yyfax.common.form.ClearEditText
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/normal_edit_text"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true"
+    android:background="@null"
+    android:maxLength="50"
+	android:singleLine="true"
+    android:maxLines="1"
+    android:ellipsize="end"
+    android:textColor="@color/color_000000"
+	android:textColorHint="@color/color_cccccc"
+    android:freezesText="true"
+    android:textSize="15sp"
+	android:saveEnabled="false"/>

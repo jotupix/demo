@@ -1,0 +1,81 @@
+apply plugin: 'com.android.library'
+
+android {
+    namespace 'com.jtkj.library'
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    dexOptions {
+        preDexLibraries = false
+        javaMaxHeapSize "4g"
+    }
+    compileSdkVersion 35
+
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 35
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+        aaptOptions.cruncherEnabled = false
+        aaptOptions.useNewCruncher = false
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        ndk {
+            //设置支持的SO库架构
+            abiFilters 'armeabi', 'x86', 'armeabi-v7a', 'x86_64', 'arm64-v8a'
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false                               //开启混淆
+            zipAlignEnabled true                             //开启Zipalign优化
+            shrinkResources false                             //移除无用的resource文件，此项只有在开启混淆时才生效
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    lint {
+        abortOnError false
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    api files('libs/nineoldandroids-library-2.4.0.jar')
+
+    androidTestImplementation('androidx.test.espresso:espresso-core:3.4.0', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+
+    implementation 'androidx.appcompat:appcompat:1.7.0'
+    implementation 'androidx.multidex:multidex:2.0.1'
+    implementation 'androidx.recyclerview:recyclerview:1.2.1'
+
+    implementation 'com.trello:rxlifecycle-components:1.0'
+    implementation 'com.scottyab:aes-crypto:0.0.5'
+    implementation 'org.greenrobot:eventbus:3.3.1'
+
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
+    implementation 'io.reactivex:rxjava:1.3.8'
+    implementation 'io.reactivex.rxjava3:rxjava:3.1.5'
+    implementation 'io.reactivex:rxandroid:1.2.1'
+
+    implementation 'com.trello:rxlifecycle:1.0'
+    implementation 'com.google.code.gson:gson:2.10'
+    api 'io.reactivex.rxjava2:rxjava:2.2.21'
+
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    implementation 'com.squareup.retrofit2:adapter-rxjava:2.9.0'
+    implementation 'com.github.bumptech.glide:glide:4.14.2'
+    // Glide
+    implementation 'jp.wasabeef:glide-transformations:4.3.0'
+    // Glide图形转换工具aad
+    implementation 'jp.co.cyberagent.android.gpuimage:gpuimage-library:1.4.0'
+    // GPUImage
+    implementation 'com.facebook.stetho:stetho-okhttp3:1.6.0'
+}

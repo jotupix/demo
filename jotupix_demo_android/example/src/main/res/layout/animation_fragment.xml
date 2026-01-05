@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:scrollbars="none" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/send_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp">
+
+        <Button
+            android:id="@+id/send_btn"
+            android:layout_width="252dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/send_bg1"
+            android:gravity="center"
+            android:text="Send"
+            android:textColor="@color/color_ffffff"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>
+

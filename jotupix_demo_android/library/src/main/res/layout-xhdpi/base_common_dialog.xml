@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:id="@+id/common_dialog_main"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingLeft="50dp"
+				android:paddingRight="50dp">
+
+	<LinearLayout
+		android:id="@+id/common_dialog_parent_panel"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_centerInParent="true"
+		android:background="@drawable/common_dialog_bg"
+		android:clickable="false"
+		android:orientation="vertical"
+		android:visibility="visible">
+
+		<LinearLayout
+			android:id="@+id/common_dialog_top_panel"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:visibility="gone">
+
+			<RelativeLayout
+				android:id="@+id/common_dialog_title_template"
+				android:layout_width="match_parent"
+				android:layout_height="35dp"
+				android:layout_marginLeft="16dp"
+				android:layout_marginRight="16dp">
+
+				<ImageView
+					android:id="@+id/common_dialog_icon"
+					android:layout_width="32dp"
+					android:layout_height="wrap_content"
+					android:layout_centerVertical="true"
+					android:layout_margin="3dp"
+					android:scaleType="centerInside"
+					android:src="@null"/>
+
+				<TextView
+					android:id="@+id/common_dialog_alert_title"
+					style="@style/common_dialog_window_title"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_centerInParent="true"
+					android:layout_marginLeft="8dp"
+					android:ellipsize="end"
+					android:gravity="center"
+					android:lines="1"/>
+			</RelativeLayout>
+
+			<View
+				android:id="@+id/common_dialog_title_divider"
+				android:layout_width="match_parent"
+				android:layout_height="1px"
+				android:background="@color/color_dialog_split"
+				android:visibility="gone"/>
+		</LinearLayout>
+
+		<LinearLayout
+			android:id="@+id/common_dialog_content_panel"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:orientation="vertical">
+
+			<TextView
+				android:id="@+id/common_dialog_message"
+				style="common_dialog_window_title"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="15dp"
+				android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp"
+				android:gravity="center"
+				android:textIsSelectable="true"/>
+		</LinearLayout>
+
+		<FrameLayout
+			android:id="@+id/common_dialog_custom_panel"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"/>
+
+		<View
+			android:id="@+id/common_dialog_btn_bar_divider"
+			android:layout_width="match_parent"
+			android:layout_height="1px"/>
+
+		<LinearLayout
+			android:id="@+id/common_dialog_btn_bar"
+			android:layout_width="match_parent"
+			android:layout_height="45dp"
+			android:orientation="horizontal">
+
+
+			<TextView
+				android:id="@+id/common_dialog_btn_left"
+				style="@style/common_dialog_btn"
+				android:text="OK"
+				android:visibility="gone"/>
+
+			<View
+				android:id="@+id/common_dialog_btn_split_divider"
+				android:layout_width="1px"
+				android:layout_height="match_parent"
+				android:layout_weight="0"
+				android:visibility="visible"/>
+
+			<TextView
+				android:id="@+id/common_dialog_btn_right"
+				style="@style/common_dialog_btn"
+				android:text="Cancel"
+				android:visibility="gone"/>
+		</LinearLayout>
+	</LinearLayout>
+
+	<ImageView
+		android:id="@+id/common_dialog_btn_dismiss"
+		android:layout_width="33dp"
+		android:layout_height="33dp"
+		android:layout_alignRight="@+id/common_dialog_parent_panel"
+		android:layout_alignTop="@+id/common_dialog_parent_panel"
+		android:padding="6dp"
+		android:src="@drawable/red_point_shape"/>
+</RelativeLayout>

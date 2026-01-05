@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<style name="common_dialog_window_title">
+		<item name="android:textSize">15sp</item>
+		<item name="android:textColor">@color/color_dialog_text</item>
+	</style>
+
+	<style name="common_dialog_btn">
+		<item name="android:layout_width">0dp</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:minHeight">45dp</item>
+		<item name="android:layout_weight">1</item>
+		<item name="android:textColor">@color/color_dialog_btn</item>
+		<item name="android:gravity">center</item>
+		<item name="android:textSize">15sp</item>
+		<item name="android:clickable">true</item>
+		<item name="android:foreground">?attr/selectableItemBackground</item>
+	</style>
+
+	<style name="common_dialog_transparent" parent="android:style/Theme.Dialog">
+		<item name="android:windowFrame">@null</item>
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:windowBackground">@android:color/transparent</item>
+		<item name="android:windowIsFloating">true</item>
+		<item name="android:windowContentOverlay">@null</item>
+		<item name="android:windowIsTranslucent">true</item>
+		<item name="android:backgroundDimEnabled">false</item>
+		<item name="android:backgroundDimAmount">0.4</item>
+	</style>
+
+	<style name="common_dialog_un_transparent" parent="common_dialog_transparent">
+		<item name="android:backgroundDimEnabled">true</item>
+	</style>
+
+	<style name="mProgress_circle">
+		<!--<item name="android:indeterminateDrawable">@drawable/progress_bar_circle</item>-->
+		<item name="android:minWidth">25dp</item>
+		<item name="android:minHeight">25dp</item>
+		<item name="android:maxWidth">60dp</item>
+		<item name="android:maxHeight">60dp</item>
+	</style>
+
+	<style name="text_333333_left">
+		<item name="android:textColor">#333333</item>
+		<item name="android:gravity">left</item>
+		<item name="android:textSize">14sp</item>
+	</style>
+
+	<style name="text_333333_center">
+		<item name="android:textColor">#333333</item>
+		<item name="android:gravity">center</item>
+		<item name="android:textSize">15sp</item>
+	</style>
+
+	<style name="text_cccccc">
+		<item name="android:textColor">#cccccc</item>
+		<item name="android:gravity">left</item>
+		<item name="android:textSize">14sp</item>
+	</style>
+
+	<style name="permission_PermissionActivity" parent="@android:style/Theme.Translucent.NoTitleBar">
+		<item name="android:windowActionBar">false</item>
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:windowBackground">@android:color/transparent</item>
+		<item name="android:windowDisablePreview">true</item>
+	</style>
+</resources>

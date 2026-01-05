@@ -1,0 +1,114 @@
+/**
+ * @file    jotupix_tick.h
+ * @brief   
+ * @note
+ *
+ * @copyright
+ *  Copyright (c) 2025 JotuPix Technology.
+ *  All rights reserved.
+ */
+#include "jotupix_demo.h"
+
+const uint8 DIYCOLOR[286] = {
+0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,	// 8byte，The reserved bytes are defaulted to 0.
+0x02, 									// 1byte，How many items of content does this program consist of?
+0x00, 									// 1byte，The reserved bytes are defaulted to 0.
+
+// Custom text color
+0x00, 0x00, 0x00, 0x40,					// 4byte，The total length of all the data in this section
+E_CONTENT_TYPE_DIYCOLOR, 				// 1byte，Indicates the type of this content. The value is fixed at 06.
+0x00, 0x00, 0x00, 0x00, 0x00, 			// 5byte，The reserved bytes are defaulted to 0.
+0x00, 0x00,								// 2byte，Movement interval, the value and the text content data's movement interval are the same
+0x00, 0x00,								// 2byte，This content indicates the starting column, which is equivalent to the x-coordinate. Its value is the same as the starting row in the text content data.
+0x00, 0x00,								// 2byte，This content indicates the starting row, which is equivalent to the Y coordinate. Its value is the same as the starting column in the text content data.
+0x00, 0x40,								// 2byte，This content indicates the width, which is the same as the display width in the text content data.
+0x00, 0x10,								// 2byte，This content indicates the height, which is the same as the displayed height in the data of the text content.
+0x01,									// 1byte，Display mode, the values and the display mode in the text content data are the same.
+0xFF,									// 1byte，Display speed, the value and the text content data have the same display speed.
+0x03,									// 1byte，Stay time, value and text content data have the same stay time.
+0x00,									// 1byte，Reserved bytes, default value is 0
+0x00, 0x0C, 							// 2byte，Maximum number of characters: 150
+0x00, 0x4E, 							// 2byte，The total width of all the characters
+
+0x08, 0x08, 0x05, 0x05, 0x08, 0x03, 0x08, 0x08, 0x08, 0x05, 0x08, 0x04,// nbyte，The set of widths occupied by each character
+// nbyte，The collection of colors for each character
+0x0F, 0x00, // red
+0x00, 0xF0, // green
+0x00, 0x0F, // blue
+0x0F, 0xF0, // yellow
+0x00, 0xFF, // cyan
+0x0F, 0x00, 
+0x00, 0xF0, 
+0x00, 0x0F, 
+0x0F, 0xF0, 
+0x00, 0xFF, 
+0x0F, 0x00, 
+0x00, 0xF0, 
+
+// Text data content
+0x00, 0x00, 0x00, 0xD4,					// 4byte，The total length of all the data in this section
+E_CONTENT_TYPE_TEXT, 					// 1byte，Indicates the type of this content. The value is fixed at 01.
+0x00, 0x00, 0x00, 0x00, 0x00, 			// 5byte，The reserved bytes are defaulted to 0.
+0x00, 0x00,								// 2byte，Background color, 0 indicates no background color.
+0x00,									// 1byte，Mixing method: 0 - Mix, 1 - Cover
+0x00, 0x00,								// 2byte，This content indicates the starting column, which corresponds to the x-coordinate. Its value is the same as the starting point of the data in the text content.
+0x00, 0x00,								// 2byte，This content indicates the starting row, which is equivalent to the Y coordinate. Its value is the same as the starting column in the text content data.
+0x00, 0x40,								// 2byte，This content indicates the width, which is the same as the display width in the text content data.
+0x00, 0x10,								// 2byte，This content indicates the height, which is the same as the displayed height in the data of the text content.
+0x01,									// 1byte，Display mode, the values and the display mode in the text content data are the same.
+0xFF,									// 1byte，Display speed, the value and the text content data have the same display speed.
+0x03,									// 1byte，Stay time, value and text content data have the same stay time.
+0x00, 0x00,								// 2byte，Movement interval, the value and the text content data's movement interval are the same
+0x00, 0x0C, 							// 2byte，Maximum number of characters: 150
+0x00, 0x00, 0x00, 0x4E,					// 2byte，The total width of all the characters
+// The following is an array of data for each text, arranged in sequence.
+0x08,									// 1byte，The width occupied by the first character
+0x00,									// 1byte，The type identifier of the first text: 0 indicates monochrome text, and 1 indicates multi-color text (expressions)
+// “H”，nbyte，The displayed data for the first text: If it is a single-color text, only the data needs to be shown. If it is a multi-color text (with emojis), then represent the text data in the form of a doodle.。
+0x3f,0xfc,0x3f,0xfc,0x01,0x80,0x01,0x80,0x01,0x80,0x3f,0xfc,0x3f,0xfc,0x00,0x00,
+// “e”
+0x08,									
+0x00,									
+0x01,0xf8,0x03,0xfc,0x02,0x44,0x02,0x44,0x02,0x44,0x03,0xcc,0x01,0xc8,0x00,0x00,
+// “l”
+0x05,									
+0x00,									
+0x20,0x04,0x3f,0xfc,0x3f,0xfc,0x00,0x04,0x00,0x00,
+// “l”
+0x05,									
+0x00,									
+0x20,0x04,0x3f,0xfc,0x3f,0xfc,0x00,0x04,0x00,0x00,
+// “o”
+0x08,									
+0x00,									
+0x01,0xf8,0x03,0xfc,0x03,0x0c,0x02,0x04,0x03,0x0c,0x03,0xfc,0x01,0xf8,0x00,0x00,
+// “,”
+0x03,									
+0x00,									
+0x00,0x1a,0x00,0x1c,0x00,0x00,
+// “w”
+0x08,									
+0x00,									
+0x03,0xf8,0x03,0xfc,0x00,0x1c,0x00,0xf8,0x00,0x1c,0x03,0xfc,0x03,0xf8,0x00,0x00,
+// “o”
+0x08,									
+0x00,									
+0x01,0xf8,0x03,0xfc,0x03,0x0c,0x02,0x04,0x03,0x0c,0x03,0xfc,0x01,0xf8,0x00,0x00,
+// “r”
+0x08,									
+0x00,									
+0x02,0x04,0x03,0xfc,0x01,0xfc,0x03,0x04,0x02,0x00,0x03,0x00,0x01,0x80,0x00,0x00,
+// “l”
+0x05,									
+0x00,									
+0x20,0x04,0x3f,0xfc,0x3f,0xfc,0x00,0x04,0x00,0x00,
+// “d”
+0x08,									
+0x00,									
+0x01,0xf8,0x03,0xfc,0x02,0x04,0x22,0x04,0x3f,0xf8,0x3f,0xfc,0x00,0x04,0x00,0x00,
+// “!”
+0x04,									
+0x00,									
+0x1e,0x00,0x3f,0xcc,0x3f,0xcc,0x1e,0x00,
+};
+

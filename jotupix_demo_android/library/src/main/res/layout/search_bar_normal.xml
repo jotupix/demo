@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal">
+
+    <RelativeLayout
+        android:id="@+id/search_container"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/common_dialog_white_bg"
+        android:gravity="center_horizontal">
+
+        <com.yyfax.common.form.ClearEditText
+            android:id="@+id/search_content_et"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_centerInParent="true"
+            android:background="@null"
+            android:drawableLeft="@drawable/small_search"
+            android:drawablePadding="5dp"
+            android:drawableStart="@drawable/small_search"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:hint="@string/please_input_name_or_idcrad"
+            android:imeOptions="actionSearch"
+            android:inputType="text"
+            android:paddingEnd="5dp"
+            android:paddingLeft="13dp"
+            android:paddingRight="5dp"
+            android:paddingStart="13dp"
+            android:singleLine="true"
+            android:textColor="@color/color_333333"
+            android:textColorHint="@color/color_cccccc"
+            android:textSize="14sp"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/cancel_btn"
+        style="@style/text_333333_center"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp"
+        android:ellipsize="none"
+        android:singleLine="true"
+        android:text="@string/cancel"/>
+</LinearLayout>

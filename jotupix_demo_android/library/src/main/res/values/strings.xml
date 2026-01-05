@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">BaseArchitecture</string>
+	<string name="base_network_not_connected">网络未连接</string>
+	<string name="base_retry">重试</string>
+	<string name="base_network_setting">网络设置</string>
+	<string name="base_load_content_error">内容加载出错</string>
+	<string name="base_operating">正在操作，请稍后……</string>
+	<string name="check_network">连接网络失败，请检查网络设置</string>
+
+	<string name="update_dialog_checking">正在检查版本</string>
+	<string name="update_toast_no_new_update">已经是最新版本</string>
+	<string name="update_dialog_title">发现新版本</string>
+	<string name="update_dialog_btn_download">立即下载</string>
+	<string name="update_dialog_btn_cancel">稍后提醒</string>
+	<string name="update_dialog_btn_cancel_force">退出应用</string>
+	<string name="update_download_progress">正在下载:%1$d%%</string>
+
+	<string name="login_user_code_hint_tx">登录密码</string>
+	<string name="login_user_name_tv_tx">手机号</string>
+	<string name="company_tel">公司座机</string>
+	<string name="area_code">区号</string>
+	<string name="ext_number">分机号</string>
+	<string name="tel_or_mobilephone">座机/手机</string>
+	<string name="error_age_strs">客户年龄不符合借款要求</string>
+	<string name="tel_or_mobilePhone">座机/手机</string>
+	<string name="unknown_error">未知错误</string>
+	<string name="cancel">取消</string>
+	<string name="please_input_name_or_phone">请输入客户名字或手机号</string>
+	<string name="client_name">用户姓名</string>
+	<string name="search_criteria_empty">搜索条件不能为空!</string>
+	<string name="please_input_name_or_idcrad">请输入客户姓名或身份证号</string>
+	<string name="please_input_customer_name_for_search">请输入要搜索的客户姓名</string>
+
+	<!--自定义控件-->
+	<string name="please_select_toast">请选择%1$s</string>
+	<string name="please_input_toast">%1$s不能为空</string>
+	<string name="please_input_correct">请正确输入的%1$s</string>
+
+
+	<string name="no_data">没有相关信息</string>
+	<string name="no_info">暂无消息</string>
+	<string name="no_network">网络异常，轻触屏幕重新加载</string>
+
+	<string name="has_no_more">已经到底了</string>
+	<string name="downloading">正在下载</string>
+	<string name="load_failed">加载失败</string>
+	<string name="downloading_failure_retry">下载失败,点击重新再试</string>
+
+	<string name="load_more_loading">Loading more...</string>
+	<string name="load_more_the_end">All loaded</string>
+	<string name="load_more_error">Swipe up to load more</string>
+
+</resources>
