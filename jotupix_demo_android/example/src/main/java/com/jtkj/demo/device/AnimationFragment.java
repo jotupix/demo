@@ -126,7 +126,7 @@ public class AnimationFragment extends BaseFragment implements JotuPix.JSendProg
                             JotuPix.ProgramInfo programInfo = new JotuPix.ProgramInfo();
                             programInfo.proIndex = 0;
                             programInfo.proAllNum = 1;
-                            programInfo.compress = JotuPix.CompressFlag.COMPRESS_FLAG_UNDO;
+                            programInfo.compress = JotuPix.CompressFlag.COMPRESS_FLAG_DO;
                             JotuPix.JProgramGroupNor programGroup = new JotuPix.JProgramGroupNor();
                             programGroup.playType = JotuPix.PlayType.PLAY_TYPE_CNT;
                             programGroup.playParam = 0;
